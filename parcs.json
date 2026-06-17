@@ -2046,4 +2046,27 @@
     },
     "distance_to_city_hall_km": 1.5
   }
+,
+  {
+  "name": "La Ferme aux Oies",
+  "city": "Marcq-en-Barœul",
+  "has_playground": true,
+  "activities_5_7_years": [
+    "Observation des animaux de la ferme (oies, paons, ânes, moutons)",
+    "Aire de jeux aquatiques (en période estivale)",
+    "Structures de jeux et tyrolienne",
+    "Jeux dans le sable"
+  ],
+  "opening_hours_summer": "Ouvert tous les jours de 10h à 20h (du 1er mars au 31 octobre)",
+  "opening_hours_winter": "Ouvert tous les jours de 10h à 18h (du 1er novembre à fin février)",
+  "city_hall_message": "Gratuit pour les Marcquois sur présentation d'un QR code. Payant pour les non-Marcquois certains jours entre le 1er avril et le 30 septembre (week-ends, mercredis, jours fériés et vacances scolaires).",
+  "description": "Un véritable écrin de nature et de loisirs au cœur de la ville ! La Ferme aux Oies est le parc familial par excellence. Les enfants s'émerveillent devant les enclos des animaux avant de se dépenser sans compter sur les nombreuses structures de jeux et la tyrolienne. L'été, l'aire de jeux aquatiques devient le point de ralliement incontournable pour se rafraîchir. Avec ses grandes pelouses pour pique-niquer et son estaminet sur place, c'est la sortie parfaite pour se dépenser au grand air.",
+  "short_description": "Un vaste parc familial combinant animaux de la ferme, structures ludiques et jeux d'eau estivaux.",
+  "gps_coordinates": {
+    "latitude": 50.695321,
+    "longitude": 3.104012
+  },
+  "distance_to_city_hall_km": 2.3
+}
+
 ]
