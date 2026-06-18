@@ -17,3 +17,9 @@ jobs:
             exit 1
           fi
           echo "✅ Toutes les descriptions sont OK"
+      - name: Installer Python via mise
+        uses: jdx/mise-action@v2
+      - name: Installer check-jsonschema
+        run: pip install check-jsonschema
+      - name: Le JSON respecte le contrat (schema.json)
+        run: python -m check_jsonschema --schemafile schema.json parcs.json
