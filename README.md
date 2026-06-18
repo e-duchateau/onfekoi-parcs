@@ -1,1 +1,2 @@
 # onfekoi-parcs
+[![Validation du JSON](https://github.com/e-duchateau/onfekoi-parcs/actions/workflows/validate.yml/badge.svg)](https://github.com/e-duchateau/onfekoi-parcs/actions/workflows/validate.yml)
