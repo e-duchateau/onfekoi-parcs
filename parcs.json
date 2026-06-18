@@ -1508,7 +1508,7 @@
     "opening_hours_winter": "Ouvert 24h/24, 7j/7",
     "city_hall_message": "Espace naturel préservé, baignade strictement interdite dans le Rhône.",
     "description": "Une immense forêt alluviale de 45 hectares préservée en bordure directe du Rhône. Sans aucun aménagement sophistiqué, ce parc volontairement sauvage offre un vrai sentiment de liberté et d'aventure sauvage aux portes de la ville.",
-    "short_description": "Forêt alluviale sauvage de 45 hectares en bordure directe du Rhône geggcugeucfchhqebdbvjhhbdvhjehubvhfdbvuhebvhjbvhjbsdhbvjhebevhshfbvhjsebvjhrbvhjbsi.",
+    "short_description": "Forêt alluviale sauvage de 45 hectares en bordure directe du Rhône.",
     "gps_coordinates": {
       "latitude": 45.7828,
       "longitude": 4.8736
@@ -1931,7 +1931,7 @@
       "Bateaux"
     ],
     "opening_hours_summer": "07:30 - 21:30",
-    "opening_hours_winter": "08:15 - 17:00",,,,,,,,,,,,,,,,,,
+    "opening_hours_winter": "08:15 - 17:00",
     "city_hall_message": null,
     "description": null,
     "short_description": null,
