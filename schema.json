@@ -10,7 +10,7 @@
         "type": "string"
       },
       "has_playground": {
-        "type": "bolean"
+        "type": "boolean"
       },
       "activities_5_7_years": {
         "type": "array",
