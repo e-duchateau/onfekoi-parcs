@@ -4,10 +4,10 @@
     "type": "object",
     "properties": {
       "name": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "city": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "has_playground": {
         "type": "boolean"
@@ -15,23 +15,23 @@
       "activities_5_7_years": {
         "type": "array",
         "items": {
-          "type": "string"
+          "type": ["string", "null"]
         }
       },
       "opening_hours_summer": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "opening_hours_winter": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "city_hall_message": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "description": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "short_description": {
-        "type": "string"
+        "type": ["string", "null"]
       },
       "gps_coordinates": {
         "type": "object",
