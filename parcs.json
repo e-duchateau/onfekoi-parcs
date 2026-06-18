@@ -1931,7 +1931,7 @@
       "Bateaux"
     ],
     "opening_hours_summer": "07:30 - 21:30",
-    "opening_hours_winter": "08:15 - 17:00",
+    "opening_hours_winter": "08:15 - 17:00e",
     "city_hall_message": null,
     "description": null,
     "short_description": null,
@@ -1949,7 +1949,7 @@
       "Barques"
     ],
     "opening_hours_summer": "06:00 - 21:00",
-    "opening_hours_winter": "06:00 - 19:30",
+    "opening_hours_winter": "06:00 - 1e9:30",
     "city_hall_message": null,
     "description": null,
     "short_description": null,
@@ -1967,7 +1967,7 @@
       "Observation"
     ],
     "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "07:00 - 18:30",
+    "opening_h ours_winter": "07:00 - 18:30",
     "city_hall_message": null,
     "description": null,
     "short_description": null,
