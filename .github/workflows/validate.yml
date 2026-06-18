@@ -1,0 +1,19 @@
+name: Validation du JSON
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installer jq
+        run: sudo apt-get install -y jq
+      - name: JSON syntaxiquement valide
+        run: jq empty parcs.json
+      - name: Aucune description ne dépasse 80 caractères
+        run: |
+          count=$(jq '[.[] | select(.short_description | length > 80)] | length' parcs.json)
+          if [ "$count" -ne 0 ]; then
+            echo "❌ $count description(s) trop longue(s)"
+            exit 1
+          fi
+          echo "✅ Toutes les descriptions sont OK"
