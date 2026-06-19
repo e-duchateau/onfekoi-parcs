@@ -1,2069 +1,1238 @@
 [
   {
-    "name": "Parc de la Tête d'Or",
-    "city": "Lyon",
+    "name": "Parc des Buttes-Chaumont",
+    "city": "Paris",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Visite du zoo",
-      "Pédalo sur le lac",
-      "Manège traditionnel",
-      "Balade en rosalie"
-    ],
-    "opening_hours_summer": "06:30 - 22:30",
-    "opening_hours_winter": "06:30 - 20:30",
-    "city_hall_message": "Attention, la roseraie internationale ferme 30 minutes avant les portes principales.",
-    "description": "Le véritable poumon vert de Lyon ! S'étendant sur 117 hectares, ce parc historique offre un cadre enchanteur avec son lac majestueux, son jardin botanique et son zoo gratuit. Un paradis pour les familles en quête de nature et de divertissements en plein cœur de la ville.",
-    "short_description": "Le poumon vert lyonnais : 117 hectares avec lac, zoo gratuit et roseraie.",
-    "gps_coordinates": {
-      "latitude": 45.7772,
-      "longitude": 4.8552
-    },
-    "distance_to_city_hall_km": 2.1
+    "activities_5_7_years": "Bacs à sable, toboggans, spectacles de guignol et balades à poney.",
+    "opening_hours_summer": "07:00-22:00",
+    "opening_hours_winter": "07:00-20:00",
+    "description": "Inauguré en 1867 sous Napoléon III, ce parc de 25 hectares offre un paysage escarpé unique à Paris. Il dispose d'un lac de 2 hectares entourant une île rocheuse surmontée d'un temple de la Sibylle.",
+    "short_description": "Un grand parc escarpé unique avec lac, cascades, ponts et grottes.",
+    "gps_coordinates": "48.8809, 2.3828",
+    "distance_to_city_hall_km": 2.8
   },
   {
     "name": "Jardin du Luxembourg",
     "city": "Paris",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Bateaux miniatures",
-      "Théâtre de marionnettes",
-      "Aires de jeux payantes",
-      "Poneys"
-    ],
-    "opening_hours_summer": "07:30 - 21:30",
-    "opening_hours_winter": "08:15 - 17:00",
-    "city_hall_message": null,
-    "description": "Créé à l'initiative de Marie de Médicis, ce jardin mythique allie styles français et anglais. Réputé pour ses chaises en métal iconiques, ses fontaines et ses activités pour enfants, c'est un rendez-vous incontournable pour flâner sous les arbres.",
-    "short_description": "Jardin historique parisien avec bassins de voiliers miniatures et verdure.",
-    "gps_coordinates": {
-      "latitude": 48.8462,
-      "longitude": 2.3371
-    },
-    "distance_to_city_hall_km": 1.5
+    "activities_5_7_years": "Voiliers miniatures sur le bassin, grand terrain de jeux payant, manèges.",
+    "opening_hours_summer": "07:30-21:30",
+    "opening_hours_winter": "08:15-17:00",
+    "description": "Créé en 1612 à la demande de Marie de Médicis, ce jardin historique entoure le Palais du Luxembourg. C'est un lieu emblématique mêlant parterres à la française et pelouses à l'anglaise.",
+    "short_description": "Jardin royal historique réputé pour son grand bassin et ses statues.",
+    "gps_coordinates": "48.8462, 2.3371",
+    "distance_to_city_hall_km": 1.9
+  },
+  {
+    "name": "Parc de la Tête d'Or",
+    "city": "Lyon",
+    "has_playground": true,
+    "activities_5_7_years": "Visite du zoo gratuit, balançoires, carrousel et bateaux électriques.",
+    "opening_hours_summer": "06:30-22:30",
+    "opening_hours_winter": "06:30-20:30",
+    "description": "Ouvert en 1857, c'est l'un des plus grands parcs urbains de France. Conçu sur le modèle du jardin anglais, il abrite un lac de 17 hectares, une roseraie internationale et un grand parc zoologique.",
+    "short_description": "Immense parc lyonnais abritant un lac, une roseraie et un grand zoo.",
+    "gps_coordinates": "45.7772, 4.8525",
+    "distance_to_city_hall_km": 2.1
   },
   {
     "name": "Parc Borély",
     "city": "Marseille",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Vélo",
-      "Barques sur l'étang",
-      "Aire de jeux pour enfants"
-    ],
-    "opening_hours_summer": "06:00 - 21:00",
-    "opening_hours_winter": "06:00 - 19:30",
-    "city_hall_message": null,
-    "description": "Situé à deux pas de la mer, le parc Borély est le plus fréquenté de Marseille. Son château du XVIIIe siècle, son jardin japonais et ses larges allées en font le lieu idéal pour une sortie dominicale face au grand air marin.",
-    "short_description": "Le plus célèbre parc de Marseille, avec son château et son jardin japonais.",
-    "gps_coordinates": {
-      "latitude": 43.2581,
-      "longitude": 5.3814
-    },
-    "distance_to_city_hall_km": 4.2
-  },
-  {
-    "name": "Parc de Procé",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux pour enfants",
-      "Manège",
-      "Course sur les pelouses"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": "Un parc romantique niché dans une vallée où coule la Chézine. Avec ses arbres séculaires, son manège en bois et son célèbre café, le parc de Procé séduit par son atmosphère à la fois bourgeoise, conviviale et reposante.",
-    "short_description": "Parc romantique nantais niché dans une vallée verdoyante et arborée.",
-    "gps_coordinates": {
-      "latitude": 47.2217,
-      "longitude": -1.5794
-    },
-    "distance_to_city_hall_km": 2.3
+    "activities_5_7_years": "Location de vélos familiaux, aires de jeux modernes et manège.",
+    "opening_hours_summer": "06:00-21:00",
+    "opening_hours_winter": "06:00-19:30",
+    "description": "Ce domaine classé Monument Historique s'étend sur 18 hectares. Il se compose d'un château du XVIIIe siècle, d'un jardin à la française, d'un parc paysager à l'anglaise et d'un riche jardin botanique.",
+    "short_description": "Parc remarquable doté d'une bastide, d'un étang et de jardins.",
+    "gps_coordinates": "43.2568, 5.3813",
+    "distance_to_city_hall_km": 4.5
   },
   {
     "name": "Jardin Public",
     "city": "Bordeaux",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Spectacle de Guignol",
-      "Aire de jeux thématique",
-      "Muséum d'histoire naturelle"
-    ],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "07:00 - 18:30",
-    "city_hall_message": "Le Muséum d'histoire naturelle observe des horaires de fermeture indépendants.",
-    "description": "Classé monument historique, ce jardin créé en 1746 est un joyau de verdure en plein centre-ville. Entre son cours d'eau sinueux, ses ponts romantiques et son arboretum, il accueille les Bordelais depuis des générations.",
-    "short_description": "Joyau de verdure bordelais classé monument historique avec rivière anglaise.",
-    "gps_coordinates": {
-      "latitude": 44.8481,
-      "longitude": -0.5786
-    },
-    "distance_to_city_hall_km": 0.8
+    "activities_5_7_years": "Théâtre de marionnettes de Guignol, grande aire de jeux en bois.",
+    "opening_hours_summer": "07:00-21:00",
+    "opening_hours_winter": "07:00-18:30",
+    "description": "Créé en 1746, ce havre de paix de 10 hectares adopte un style romantique à l'anglaise. Il entoure un grand cours d'eau en demi-lune et comprend un arboretum ainsi que le Muséum d'histoire naturelle.",
+    "short_description": "Écrin de verdure romantique abritant un ruisseau et un arboretum.",
+    "gps_coordinates": "44.8482, -0.5786",
+    "distance_to_city_hall_km": 1.1
+  },
+  {
+    "name": "Parc de Procé",
+    "city": "Nantes",
+    "has_playground": true,
+    "activities_5_7_years": "Structures d'escalade, pistes pour vélos, manège pour enfants.",
+    "opening_hours_summer": "08:30-20:00",
+    "opening_hours_winter": "08:30-18:30",
+    "description": "Ancien domaine privé acheté par la ville en 1912, ce parc vallonné est traversé par le ruisseau de la Chézine. Ses arbres centenaires et ses sculptures en font un lieu de promenade très élégant.",
+    "short_description": "Cadre vallonné raffiné avec un manoir et des arbres remarquables.",
+    "gps_coordinates": "47.2223, -1.5815",
+    "distance_to_city_hall_km": 1.8
+  },
+  {
+    "name": "Jardin des Plantes",
+    "city": "Toulouse",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux, balades à poney, petits manèges rétro, vélos.",
+    "opening_hours_summer": "07:15-20:30",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Faisant partie des anciens jardins créés pendant la Révolution, cet espace public s'étend sur 7 hectares. Il possède de superbes cascades, des passerelles et communique avec le Muséum d'histoire naturelle.",
+    "short_description": "Jardin public très vivant avec des cascades et des cours d'eau.",
+    "gps_coordinates": "43.5936, 1.4516",
+    "distance_to_city_hall_km": 1.4
   },
   {
     "name": "Parc de l'Orangerie",
     "city": "Strasbourg",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Observation des cigognes",
-      "Mini-ferme",
-      "Voitures électriques pour enfants"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": "Le plus ancien et le plus vaste parc de la ville. C'est le lieu privilégié des cigognes qui y nichent en grand nombre. Un grand lac, un pavillon Joséphine historique et de multiples espaces de jeux en font une destination royale.",
-    "short_description": "Le plus grand parc de Strasbourg, célèbre pour ses nids de cigognes.",
-    "gps_coordinates": {
-      "latitude": 48.5908,
-      "longitude": 7.7744
-    },
-    "distance_to_city_hall_km": 2.5
+    "activities_5_7_years": "Mini-zoo gratuit, circuit de voitures électriques, aires de tyroliennes.",
+    "opening_hours_summer": "07:00-23:00",
+    "opening_hours_winter": "07:00-20:00",
+    "description": "Le plus ancien parc de la ville s'étend sur 26 hectares. Aménagé en l'honneur de l'impératrice Joséphine, il abrite un grand lac artificiel, une cascade, des cigognes en liberté et un pavillon historique.",
+    "short_description": "Parc historique célèbre pour son lac de canotage et ses cigognes.",
+    "gps_coordinates": "48.5902, 7.7758",
+    "distance_to_city_hall_km": 2.3
   },
   {
-    "name": "Parc du Thabor",
+    "name": "Parc Thabor",
     "city": "Rennes",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Aires de structures en bois",
-      "Observation des oiseaux en volière",
-      "Balade"
-    ],
-    "opening_hours_summer": "07:30 - 20:30",
-    "opening_hours_winter": "07:30 - 18:30",
-    "city_hall_message": null,
-    "description": "Aménagé sur plus de 10 hectares, le Thabor combine un jardin à la française, un parc à l'anglaise, une roseraie remarquable et un jardin botanique d'exception. Un chef-d'œuvre paysager au cœur de la capitale bretonne.",
-    "short_description": "Superbe parc rennais combinant jardins à la française et roseraie unique.",
-    "gps_coordinates": {
-      "latitude": 48.1144,
-      "longitude": -1.6703
-    },
+    "activities_5_7_years": "Grande aire de jeux close, parcours de motricité pour enfants.",
+    "opening_hours_summer": "07:30-20:30",
+    "opening_hours_winter": "07:30-18:30",
+    "description": "Ancien jardin des moines de l'abbaye Saint-Melaine, le Thabor s'étend sur 10 hectares. Dessiné au XIXe siècle par Denis Bühler, il combine de façon spectaculaire jardin français, parc anglais et roseraie.",
+    "short_description": "Joyau paysager mêlant jardins à la française et superbe roseraie.",
+    "gps_coordinates": "48.1143, -1.6698",
+    "distance_to_city_hall_km": 0.8
+  },
+  {
+    "name": "Jardin des Prébendes d'Oé",
+    "city": "Tours",
+    "has_playground": true,
+    "activities_5_7_years": "Toboggans, structures de cordage, ponts suspendus pour enfants.",
+    "opening_hours_summer": "07:45-21:00",
+    "opening_hours_winter": "07:45-18:30",
+    "description": "Créé en 1872 par les frères Bühler, ce superbe jardin à l'anglaise est un modèle de romantisme en centre-ville. Il est classé Jardin Remarquable grâce à ses essences rares, ses cèdres et ses cours d'eau.",
+    "short_description": "Jardin paysager à l'anglaise poétique avec un kiosque à musique.",
+    "gps_coordinates": "47.3855, 0.6841",
     "distance_to_city_hall_km": 0.9
   },
   {
-    "name": "Parc de la Grange",
-    "city": "Mérignac",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade",
-      "Observation de la flore"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8322,
-      "longitude": -0.6541
-    },
-    "distance_to_city_hall_km": 1.4
-  },
-  {
-    "name": "Parc Blandan",
-    "city": "Lyon",
+    "name": "Parc de la Pépinière",
+    "city": "Nancy",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Grande structure d'escalade",
-      "Skatepark (observation)",
-      "Jeux de ballon"
-    ],
-    "opening_hours_summer": "06:30 - 22:30",
-    "opening_hours_winter": "06:30 - 20:30",
-    "city_hall_message": null,
-    "description": "Aménagé sur le site d'une ancienne caserne militaire, ce parc contemporain offre d'immenses espaces de liberté pour le sport et les jeux. Sa structure de jeux géante en bois fait le bonheur des aventuriers en herbe.",
-    "short_description": "Ancienne caserne militaire réhabilitée en parc urbain et de loisirs géant.",
-    "gps_coordinates": {
-      "latitude": 45.7428,
-      "longitude": 4.8541
-    },
-    "distance_to_city_hall_km": 2.8
-  },
-  {
-    "name": "Parc des Buttes-Chaumont",
-    "city": "Paris",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Spectacles de marionnettes",
-      "Jeux de piste",
-      "Pont suspendu"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": "L'un des parcs les plus escarpés de Paris, construit sur d'anciennes carrières de gypse. Ses falaises intérieures, son pont suspendu conçu par Gustave Eiffel et sa cascade secrète créent un paysage d'aventure unique en ville.",
-    "short_description": "Parc escarpé parisien doté d'un grand lac, d'une cascade et d'un pont suspendu.",
-    "gps_coordinates": {
-      "latitude": 48.8806,
-      "longitude": 2.3828
-    },
-    "distance_to_city_hall_km": 3.4
-  },
-  {
-    "name": "Parc Pastré",
-    "city": "Marseille",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Accrobranche",
-      "Manège",
-      "Sentiers de petite randonnée"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": "Situé aux portes des Calanques, cet immense domaine boisé de 112 hectares grimpe vers les collines. Entre pelouses, bastides historiques et pinèdes parfumées, c'est l'un des espaces naturels les plus sauvages de la cité phocéenne.",
-    "short_description": "Vaste domaine boisé marseillais menant aux sentiers des Calanques.",
-    "gps_coordinates": {
-      "latitude": 43.2305,
-      "longitude": 5.3732
-    },
-    "distance_to_city_hall_km": 7.8
-  },
-  {
-    "name": "Parc du Grand Blottereau",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Exploration des serres",
-      "Jeux de plein air",
-      "Promenade thématique"
-    ],
-    "opening_hours_summer": "08:00 - 19:30",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": "Un parc à vocation exotique et pédagogique. Autour de son château du XVIIIe siècle s'articulent des espaces thématiques : jardin coréen, roseraie, et des serres abritant des collections de plantes utilitaires tropicales uniques.",
-    "short_description": "Parc nantais exotique abritant un château et un superbe jardin coréen.",
-    "gps_coordinates": {
-      "latitude": 47.2272,
-      "longitude": -1.5078
-    },
-    "distance_to_city_hall_km": 4.1
-  },
-  {
-    "name": "Parc Bordelais",
-    "city": "Bordeaux",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Petit train",
-      "Rencontre avec les animaux de la ferme",
-      "Grands toboggans"
-    ],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "07:00 - 18:30",
-    "city_hall_message": null,
-    "description": "Le paradis absolu des enfants à Bordeaux ! Conçu au XIXe siècle comme un espace de promenade à l'anglaise, il accueille un parc animalier avec des espèces locales protégées, un petit train historique et d'immenses aires de jeux sous les chênes.",
-    "short_description": "Le paradis bordelais des petits avec son petit train et sa ferme.",
-    "gps_coordinates": {
-      "latitude": 44.8542,
-      "longitude": -0.6011
-    },
-    "distance_to_city_hall_km": 2.2
-  },
-  {
-    "name": "Parc de la Citadelle",
-    "city": "Strasbourg",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux d'eau en été",
-      "Parcours d'agilité",
-      "Promenade historique"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": "Établi sur les vestiges d'une citadelle fortifiée par Vauban en 1681, ce parc mêle histoire et loisirs. Ses douves remplies d'eau, ses aires de jeux aquatiques estivales et ses grands espaces gazonnés en font un haut lieu de détente.",
-    "short_description": "Parc aménagé sur d'anciennes fortifications de Vauban avec jeux d'eau.",
-    "gps_coordinates": {
-      "latitude": 48.5775,
-      "longitude": 7.7719
-    },
-    "distance_to_city_hall_km": 2.0
-  },
-  {
-    "name": "Parc des Gayeulles",
-    "city": "Rennes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Parcours d'orientation",
-      "Ferme pédagogique",
-      "Pédalo et mini-golf"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": "Surnommé le « parc des bois », cet espace géant de 100 hectares combine forêts, étangs et infrastructures de loisirs. Avec sa faune sauvage en liberté, sa ferme pour enfants et ses clairières, c'est la campagne à la ville.",
-    "short_description": "Le 'parc des bois' de Rennes : 100 hectares de nature sauvage.",
-    "gps_coordinates": {
-      "latitude": 48.1361,
-      "longitude": -1.6442
-    },
-    "distance_to_city_hall_km": 3.5
-  },
-  {
-    "name": "Square de la Motte",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade historique"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1136,
-      "longitude": -1.6739
-    },
+    "activities_5_7_years": "Espace animalier, grands manèges, mini-golf et structures gonflables.",
+    "opening_hours_summer": "06:30-22:00",
+    "opening_hours_winter": "06:30-20:00",
+    "description": "Ancienne pépinière royale fondée par Stanislas au XVIIIe siècle, ce parc de 21 hectares est situé en plein cœur historique. Il comprend une magnifique roseraie, un auditorium extérieur et des aires de jeux.",
+    "short_description": "Vaste parc central proposant une roseraie et un pôle animalier.",
+    "gps_coordinates": "48.6974, 6.1848",
     "distance_to_city_hall_km": 0.4
   },
   {
-    "name": "Parc Montsouris",
-    "city": "Paris",
+    "name": "Parc Barbieux",
+    "city": "Roubaix",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Poney",
-      "Balade autour du lac",
-      "Aires de structures motrices"
-    ],
-    "opening_hours_summer": "07:00 - 21:30",
-    "opening_hours_winter": "07:00 - 17:45",
-    "city_hall_message": null,
-    "description": "Situé au sud de Paris, ce grand parc à l'anglaise abrite de nombreux arbres centenaires et une faune aviaire variée autour de son grand lac. Son relief vallonné en fait un endroit idéal pour s'isoler du tumulte urbain.",
-    "short_description": "Grand parc paysager du sud parisien avec lac, vallons et arbres rares.",
-    "gps_coordinates": {
-      "latitude": 48.8222,
-      "longitude": 2.3381
-    },
-    "distance_to_city_hall_km": 4.1
+    "activities_5_7_years": "Parcours aventure, balançoires et pistes cyclables pour enfants.",
+    "opening_hours_summer": "07:00-22:00",
+    "opening_hours_winter": "07:00-19:00",
+    "description": "Classé Jardin Remarquable, ce parc s'étend sur un ancien projet de canal abandonné au XIXe siècle. Il offre une longue promenade vallonnée de 34 hectares parsemée de plans d'eau reliés par des cascades.",
+    "short_description": "Parc linéaire d'exception réputé pour sa faune et sa flore.",
+    "gps_coordinates": "50.6775, 3.1611",
+    "distance_to_city_hall_km": 2.5
+  },
+  {
+    "name": "Parc Jean-Baptiste Lebas",
+    "city": "Lille",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux géantes sécurisées, jeux de cordage, bacs à sable.",
+    "opening_hours_summer": "07:30-22:00",
+    "opening_hours_winter": "07:30-19:00",
+    "description": "Ce parc urbain contemporain de 3 hectares est ceinturé par de majestueuses grilles rouges. Il offre de vastes pelouses géométriques idéales pour les rassemblements de quartier et les jeux d'enfants.",
+    "short_description": "Parc de quartier très convivial réputé pour ses grilles rouges.",
+    "gps_coordinates": "50.6264, 3.0682",
+    "distance_to_city_hall_km": 1.1
+  },
+  {
+    "name": "Citadelle de Lille",
+    "city": "Lille",
+    "has_playground": true,
+    "activities_5_7_years": "Parc d'attractions Cita-Parc, parcours d'accrobranche, tyroliennes.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Surnommé le 'Reine des Citadelles', cet immense espace boisé de 60 hectares entoure l'ouvrage fortifié de Vauban. Le bois de Boulogne adjacent est idéal pour les joggeurs et les familles de la métropole.",
+    "short_description": "Immense espace vert entourant les fortifications royales de Vauban.",
+    "gps_coordinates": "50.6405, 3.0452",
+    "distance_to_city_hall_km": 1.3
   },
   {
     "name": "Parc de la Cerisaie",
     "city": "Lyon",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Parcours de sculptures",
-      "Jeux enfants",
-      "Balade dans les vergers"
-    ],
-    "opening_hours_summer": "06:00 - 22:00",
-    "opening_hours_winter": "07:00 - 19:00",
-    "city_hall_message": null,
-    "description": "Niché sur la colline de la Croix-Rousse, ce parc abrite une ancienne villa bourgeoise, de magnifiques alignements de arbres fruitiers et des œuvres d'art contemporain disséminées dans la nature.",
-    "short_description": "Parc arboré sur les hauteurs de la Croix-Rousse mêlant art et verdure.",
-    "gps_coordinates": {
-      "latitude": 45.7725,
-      "longitude": 4.8181
-    },
-    "distance_to_city_hall_km": 1.9
+    "activities_5_7_years": "Structures de glisse, jeux à bascule, parcours de grimpe adaptés.",
+    "opening_hours_summer": "08:00-22:00",
+    "opening_hours_winter": "08:00-19:00",
+    "description": "Situé sur les pentes de la Croix-Rousse, ce parc abrite la villa Gillet, une ancienne maison de maître. Le parc se distingue par ses arbres centenaires et sa collection de sculptures contemporaines.",
+    "short_description": "Parc culturel ombragé offrant art moderne et arbres séculaires.",
+    "gps_coordinates": "45.7725, 4.8164",
+    "distance_to_city_hall_km": 2.2
   },
   {
-    "name": "Jardin de la Magalone",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Découverte des statues"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2625,
-      "longitude": 5.3942
-    },
-    "distance_to_city_hall_km": 4.5
-  },
-  {
-    "name": "Parc des Oblates",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux d'enfants",
-      "Rencontre avec les moutons",
-      "Parcours biodiversité"
-    ],
-    "opening_hours_summer": "08:00 - 19:30",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": "Ancien jardin d'un couvent, ce parc préservé offre une superbe vue panoramique sur la Loire et l'île de Nantes. Son allure de campagne préservée avec son verger et son éco-pâturage en fait un lieu calme et authentique.",
-    "short_description": "Ancien jardin de couvent en surplomb de la Loire au charme pastoral.",
-    "gps_coordinates": {
-      "latitude": 47.1997,
-      "longitude": -1.5839
-    },
-    "distance_to_city_hall_km": 3.0
-  },
-  {
-    "name": "Parc de Majolan",
-    "city": "Blanquefort",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Exploration des grottes artificielles",
-      "Observation des cygnes",
-      "Ponts de bois"
-    ],
-    "opening_hours_summer": "08:00 - 20:30",
-    "opening_hours_winter": "08:30 - 18:00",
-    "city_hall_message": "Les grottes peuvent être fermées en cas de fortes intempéries pour raisons de sécurité.",
-    "description": "Un parc romantique d'une créativité folle ! Conçu à la fin du XIXe siècle, il s'articule autour d'un grand lac et se distingue par ses grottes artificielles baroques, ses fausses ruines théâtrales et ses ponts rocaille magiques.",
-    "short_description": "Parc féerique avec grottes artificielles et ponts en fausse pierre.",
-    "gps_coordinates": {
-      "latitude": 44.9083,
-      "longitude": -0.6272
-    },
-    "distance_to_city_hall_km": 9.5
-  },
-  {
-    "name": "Parc de l'Hôtel de Ville",
-    "city": "Schiltigheim",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Petite balade"
-    ],
-    "opening_hours_summer": "08:00 - 19:00",
-    "opening_hours_winter": "08:00 - 17:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.6061,
-      "longitude": 7.7492
-    },
-    "distance_to_city_hall_km": 3.8
-  },
-  {
-    "name": "Parc Oberthür",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation des canards",
-      "Promenade botanique"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1128,
-      "longitude": -1.6625
-    },
-    "distance_to_city_hall_km": 1.2
-  },
-  {
-    "name": "Bois de Boulogne",
-    "city": "Paris",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Jardin d'Acclimatation",
-      "Barques",
-      "Vélo en sous-bois"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": "Certaines attractions et parcs fermés à l'intérieur du bois ont leurs propres tarifs.",
-    "description": "Ancien terrain de chasse des rois de France, cet immense domaine de 846 hectares à l'ouest de Paris est un véritable paradis d'évasion avec ses lacs, ses pistes cyclables et le célèbre Jardin d'Acclimatation dédié aux enfants.",
-    "short_description": "Immense poumon forestier de l'ouest parisien avec de nombreux lacs.",
-    "gps_coordinates": {
-      "latitude": 48.8624,
-      "longitude": 2.2492
-    },
-    "distance_to_city_hall_km": 6.8
-  },
-  {
-    "name": "Parc de Gerland",
+    "name": "Parc Sergent Blandan",
     "city": "Lyon",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux au skatepark (adapté)",
-      "Découverte de la mégaphorbiaie",
-      "Pelouses"
-    ],
-    "opening_hours_summer": "06:30 - 22:30",
-    "opening_hours_winter": "06:30 - 20:30",
-    "city_hall_message": null,
-    "description": "Situé au sud de Lyon au bord du Rhône, ce parc contemporain est dédié aux loisirs actifs et à la découverte de la flore. Sa spectaculaire prairie de plantes géantes (mégaphorbiaie) offre une expérience dépaysante.",
-    "short_description": "Parc contemporain en bord de Rhône axé sur la nature urbaine et le sport.",
-    "gps_coordinates": {
-      "latitude": 45.7236,
-      "longitude": 4.8294
-    },
-    "distance_to_city_hall_km": 4.5
+    "activities_5_7_years": "La 'Vague des Remparts' : structure géante en bois de glisse et grimpe.",
+    "opening_hours_summer": "06:30-22:30",
+    "opening_hours_winter": "06:30-20:30",
+    "description": "Ancienne caserne militaire reconvertie en parc public de 17 hectares. Le fort central est entouré de douves et de grandes plaines de loisirs comprenant d'immenses structures de jeux innovantes.",
+    "short_description": "Ancien bastion militaire réaménagé avec de vastes aires ludiques.",
+    "gps_coordinates": "45.7461, 4.8569",
+    "distance_to_city_hall_km": 2.5
   },
   {
-    "name": "Jardin de la Colline Puget",
-    "city": "Marseille",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Petits jeux",
-      "Course en pente"
-    ],
-    "opening_hours_summer": "08:00 - 19:30",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": "Le plus ancien jardin public de Marseille. Perché sur une colline, il offre des sentiers escarpés ombragés et une vue splendide sur le Vieux-Port pour ceux qui prennent le temps de grimper ses allées romantiques.",
-    "short_description": "Le plus vieux jardin de Marseille, offrant une vue sur le Vieux-Port.",
-    "gps_coordinates": {
-      "latitude": 43.2903,
-      "longitude": 5.3711
-    },
-    "distance_to_city_hall_km": 1.1
-  },
-  {
-    "name": "Parc de la Gaudinière",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux extérieurs",
-      "Chasse aux papillons",
-      "Ruisseau"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": "Ce parc vallonné est réputé pour son splendide château et son ruisseau paysager bordé de milliers de bulbes au printemps. Un écrin de fraîcheur forestière avec ses séquoias géants et sa collection de rhododendrons.",
-    "short_description": "Parc vallonné nantais réputé pour sa floraison printanière spectaculaire.",
-    "gps_coordinates": {
-      "latitude": 47.2436,
-      "longitude": -1.5744
-    },
-    "distance_to_city_hall_km": 3.4
-  },
-  {
-    "name": "Bois de Bordeaux",
-    "city": "Bordeaux",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Randonnée en forêt",
-      "Observation des oiseaux"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": "Situé au nord de la métropole, ce vaste espace forestier artificiel de 86 hectares offre de longs sentiers de marche à l'ombre des pins, des bouleaux et un grand plan d'eau propice à l'observation de la biodiversité locale.",
-    "short_description": "Grand boisement urbain au nord de Bordeaux pour de longues marches.",
-    "gps_coordinates": {
-      "latitude": 44.8964,
-      "longitude": -0.5694
-    },
-    "distance_to_city_hall_km": 6.2
-  },
-  {
-    "name": "Parc du Contades",
-    "city": "Strasbourg",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Aires de jeux",
-      "Kiosque à musique",
-      "Trottinette"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": "Créé au XVIIIe siècle, ce parc historique situé au cœur du quartier Neustadt est réputé pour son superbe kiosque à musique en fer forgé et ses allées calmes bordées d'arbres majestueux. Un lieu chargé d'histoire.",
-    "short_description": "Parc élégant et historique au cœur de Strasbourg avec kiosque ancien.",
-    "gps_coordinates": {
-      "latitude": 48.5894,
-      "longitude": 7.7606
-    },
-    "distance_to_city_hall_km": 1.1
-  },
-  {
-    "name": "Parc de Bréquigny",
-    "city": "Rennes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Toboggans et cordages",
-      "Jeux de ballon",
-      "Pique-nique"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": "Situé au sud de Rennes, ce grand parc de quartier offre d'immenses pelouses dégagées idéales pour les jeux de ballon, ainsi que de jolis sous-bois préservés et des structures de jeux modernes adaptées à tous les âges.",
-    "short_description": "Grand espace vert familial au sud de Rennes avec de vastes pelouses.",
-    "gps_coordinates": {
-      "latitude": 48.0894,
-      "longitude": -1.6917
-    },
-    "distance_to_city_hall_km": 3.0
-  },
-  {
-    "name": "Square de Villeneuve",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.0981,
-      "longitude": -1.6744
-    },
-    "distance_to_city_hall_km": 1.8
-  },
-  {
-    "name": "Bois de Vincennes",
+    "name": "Parc Montsouris",
     "city": "Paris",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Parc Zoologique de Paris",
-      "Barques sur le lac Daumesnil",
-      "Théâtre de marionnettes"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": "Le Parc Floral de Paris situé à l'intérieur possède ses propres conditions d'accès.",
-    "description": "Le plus grand espace vert de Paris avec ses 995 hectares. Il regorge de trésors : le château médiéval de Vincennes, le zoo, le Parc Floral, ainsi que quatre grands lacs où s'évader totalement loin de la circulation parisienne.",
-    "short_description": "Le plus grand espace forestier parisien, riche en lacs et activités.",
-    "gps_coordinates": {
-      "latitude": 48.8283,
-      "longitude": 2.4331
-    },
-    "distance_to_city_hall_km": 6.5
+    "activities_5_7_years": "Théâtre de marionnettes, balançoires et zones de parcours balisées.",
+    "opening_hours_summer": "07:00-21:30",
+    "opening_hours_winter": "07:00-17:45",
+    "description": "Conçu par l'ingénieur Alphand à la fin du XIXe siècle, ce parc à l'anglaise s'étend sur 15 hectares. Il dispose d'un lac, d'une grande variété d'oiseaux, de cascades et d'arbres exotiques remarquables.",
+    "short_description": "Grand paysage vallonné du sud parisien avec lac et cascades.",
+    "gps_coordinates": "48.8227, 2.3382",
+    "distance_to_city_hall_km": 3.9
   },
   {
-    "name": "Parc de Parilly",
-    "city": "Bron",
+    "name": "Parc de la Villette",
+    "city": "Paris",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Pistes de vélo",
-      "Grands modules de jeux",
-      "Athlétisme ludique"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": "Immense domaine arboré de 178 hectares géré par la Métropole de Lyon. Réputé pour son hippodrome et ses gigantesques infrastructures sportives, il offre aussi de grandes clairières calmes idéales pour les balades en famille.",
-    "short_description": "Immense parc métropolitain lyonnais dédié au sport et à la détente.",
-    "gps_coordinates": {
-      "latitude": 45.7194,
-      "longitude": 4.8878
-    },
-    "distance_to_city_hall_km": 6.5
+    "activities_5_7_years": "Le Jardin des Vents et des Dunes : structures gonflables et trampolines.",
+    "opening_hours_summer": "06:00-01:00",
+    "opening_hours_winter": "06:00-01:00",
+    "description": "L'un des plus grands parcs culturels de la capitale (55 hectares). Traversé par le canal de l'Ourcq, il intègre des édifices d'architecture contemporaine ainsi que de nombreux espaces de jeux à thème.",
+    "short_description": "Parc architectural moderne dédié à la science, l'art et les jeux.",
+    "gps_coordinates": "48.8938, 2.3904",
+    "distance_to_city_hall_km": 4.6
   },
   {
-    "name": "Parc de la Maison Blanche",
-    "city": "Marseille",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Toboggans",
-      "Balade autour de l'étang",
-      "Pique-nique"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:30",
-    "city_hall_message": null,
-    "description": "Ce charmant parc entoure une magnifique bastide du XIXe siècle qui sert aujourd'hui de mairie de secteur. Son lac miniature avec ses canards, ses pelouses ombragées et ses arbres centenaires offrent une halte fraîche indispensable.",
-    "short_description": "Jardin romantique autour d'une splendide bastide marseillaise.",
-    "gps_coordinates": {
-      "latitude": 43.2628,
-      "longitude": 5.4044
-    },
-    "distance_to_city_hall_km": 4.9
-  },
-  {
-    "name": "Parc Floral de la Beaujoire",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Parcours découverte",
-      "Jeux enfants",
-      "Labyrinthe végétal"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": "Créé à l'occasion des Floralies, ce parc thématique borde l'Erdre. Il abrite une roseraie internationale exceptionnelle de plus de 20 000 vielles variétés, ainsi que de formidables collections d'iris, de magnolias et de bruyères.",
-    "short_description": "Parc floral nantais en bord d'Erdre avec roseraie internationale.",
-    "gps_coordinates": {
-      "latitude": 47.2619,
-      "longitude": -1.5317
-    },
-    "distance_to_city_hall_km": 5.2
-  },
-  {
-    "name": "Parc Palmer",
-    "city": "Cenon",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux sur pelouses",
-      "Petite escalade",
-      "Course d'orientation"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": "Perché sur les coteaux de la rive droite bordelaise, ce vaste domaine de 25 hectares offre un panorama spectaculaire sur toute l'agglomération. Ses collines herbeuses vertigineuses sont parfaites pour de grandes courses d'enfants.",
-    "short_description": "Parc panoramique sur les coteaux offrant une vue imprenable sur Bordeaux.",
-    "gps_coordinates": {
-      "latitude": 44.8583,
-      "longitude": -0.5283
-    },
-    "distance_to_city_hall_km": 4.1
-  },
-  {
-    "name": "Parc de l'Étoile",
-    "city": "Strasbourg",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Trottinette et rollers"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.5744,
-      "longitude": 7.7533
-    },
-    "distance_to_city_hall_km": 0.9
-  },
-  {
-    "name": "Parc de la Touche",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Petite promenade"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1189,
-      "longitude": -1.6983
-    },
-    "distance_to_city_hall_km": 2.1
-  },
-  {
-    "name": "Parc des Monnaies",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "08:00 - 19:00",
-    "opening_hours_winter": "08:00 - 17:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7531,
-      "longitude": 4.8294
-    },
-    "distance_to_city_hall_km": 1.2
-  },
-  {
-    "name": "Parc Montsouris (Partie Basse)",
+    "name": "Parc de Bagatelle",
     "city": "Paris",
     "has_playground": false,
-    "activities_5_7_years": [
-      "Balade"
-    ],
-    "opening_hours_summer": "07:00 - 21:30",
-    "opening_hours_winter": "07:00 - 17:45",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8208,
-      "longitude": 2.3389
-    },
-    "distance_to_city_hall_km": 4.3
+    "activities_5_7_years": "Observation des paons en liberté, labyrinthe végétal historique.",
+    "opening_hours_summer": "09:30-20:00",
+    "opening_hours_winter": "09:30-17:00",
+    "description": "Né d'un pari en 1777, ce magnifique parc situé au cœur du bois de Boulogne est un jardin botanique d'exception. Il est mondialement réputé pour sa roseraie historique comptant plus de 10 000 rosiers.",
+    "short_description": "Jardin romantique renommé pour sa roseraie et ses petits ponts.",
+    "gps_coordinates": "48.8714, 2.2471",
+    "distance_to_city_hall_km": 7.4
   },
   {
-    "name": "Parc de la Cité Internationale",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Vélo en bord de fleuve"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7842,
-      "longitude": 4.8589
-    },
-    "distance_to_city_hall_km": 3.0
+    "name": "Parc de Bercy",
+    "city": "Paris",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux d'eau extérieurs en été, labyrinthe de buissons, toboggans.",
+    "opening_hours_summer": "07:00-21:30",
+    "opening_hours_winter": "07:00-17:45",
+    "description": "Aménagé sur l'emplacement d'anciens entrepôts de vin, ce parc de 14 hectares conserve de vieux platanes et des rails de chargement. Il se divise en trois jardins thématiques séparés par des passerelles.",
+    "short_description": "Trois espaces verts thématiques installés sur d'anciens chais.",
+    "gps_coordinates": "48.8354, 2.3812",
+    "distance_to_city_hall_km": 2.9
   },
   {
     "name": "Jardin des Tuileries",
     "city": "Paris",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Grande roue (selon saison)",
-      "Trampolines extérieurs",
-      "Bateaux en bois sur le bassin"
-    ],
-    "opening_hours_summer": "07:00 - 23:00",
-    "opening_hours_winter": "07:30 - 19:30",
-    "city_hall_message": null,
-    "description": "Plus ancien et plus important jardin à la française de la capitale, conçu par André Le Nôtre. Séparant le Louvre de la place de la Concorde, il est jalonné de statues de Maillol, Rodin ou Giacometti et de grands bassins propices à la détente.",
-    "short_description": "Le somptueux jardin à la française reliant le Louvre à la Concorde.",
-    "gps_coordinates": {
-      "latitude": 48.8633,
-      "longitude": 2.3275
-    },
-    "distance_to_city_hall_km": 0.5
+    "activities_5_7_years": "Louer de petits bateaux en bois, carrousel, trampolines en plein air.",
+    "opening_hours_summer": "07:00-23:00",
+    "opening_hours_winter": "07:30-19:30",
+    "description": "Le plus ancien et le plus important jardin à la française de Paris, dessiné par André Le Nôtre. Situé entre le Musée du Louvre et la Place de la Concorde, il est classé monument historique par l'UNESCO.",
+    "short_description": "Chef-d'œuvre à la française orné de statues royales et de bassins.",
+    "gps_coordinates": "48.8635, 2.3274",
+    "distance_to_city_hall_km": 1.5
   },
   {
-    "name": "Parc des Hauteurs",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Passerelle piétonne",
-      "Vue panoramique"
-    ],
-    "opening_hours_summer": "08:00 - 22:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": "Ce parcours suspendu relie les hauteurs de Fourvière au cimetière de Loyasse. Il emprunte une ancienne voie ferrée reconvertie en passerelle piétonne spectaculaire, offrant une vue plongeante inédite sur la Saône et la ville.",
-    "short_description": "Sentier suspendu sur les hauteurs de Fourvière avec vue panoramique.",
-    "gps_coordinates": {
-      "latitude": 45.7644,
-      "longitude": 4.8219
-    },
-    "distance_to_city_hall_km": 1.4
-  },
-  {
-    "name": "Parc du 26e Centenaire",
-    "city": "Marseille",
+    "name": "Parc de la Citadelle",
+    "city": "Strasbourg",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Pédalo pour enfants",
-      "Jeux sur l'esplanade",
-      "Observation des canards"
-    ],
-    "opening_hours_summer": "08:00 - 21:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": "Aménagé sur l'emplacement de l'ancienne gare de Prado, ce parc moderne de 10 hectares abrite un lac de 3 000 m², quatre jardins thématiques (provençal, oriental, africain, asiatique) et un belvédère offrant une vue à 360° sur Marseille.",
-    "short_description": "Parc contemporain doté d'un grand lac et de 4 jardins thématiques.",
-    "gps_coordinates": {
-      "latitude": 43.2806,
-      "longitude": 5.3944
-    },
-    "distance_to_city_hall_km": 2.6
+    "activities_5_7_years": "Aires de jeux aquatiques (en été), structures de varappe clôturées.",
+    "opening_hours_summer": "07:00-23:00",
+    "opening_hours_winter": "07:00-21:00",
+    "description": "Ce parc s'étend autour des ruines d'une citadelle fortifiée bâtie par Vauban en 1681. Les fossés d'origine ont été transformés en plans d'eau où nichent de nombreuses espèces d'oiseaux aquatiques.",
+    "short_description": "Bastion historique réaménagé avec de larges fossés en eau.",
+    "gps_coordinates": "48.5772, 7.7731",
+    "distance_to_city_hall_km": 1.9
   },
   {
-    "name": "Parc de la Crapaudine",
+    "name": "Parc du Grand Blottereau",
     "city": "Nantes",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux d'eau",
-      "Grand toboggan tubulaire",
-      "Jardins partagés"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": "Ce parc historique maraîcher a été transformé en un espace vert ultra-convivial. Il allie potagers associatifs dynamiques, parcelles fleuries sauvages et une immense plaine de jeux dotée de jets d'eau parfaits pour les enfants en été.",
-    "short_description": "Ancien site maraîcher réaménagé avec de supers jeux d'eau d'été.",
-    "gps_coordinates": {
-      "latitude": 47.1917,
-      "longitude": -1.5344
-    },
-    "distance_to_city_hall_km": 3.2
+    "activities_5_7_years": "Structures de grimpe en cordage, toboggans, parcours ludo-éducatifs.",
+    "opening_hours_summer": "08:30-20:00",
+    "opening_hours_winter": "08:30-18:30",
+    "description": "Le plus grand parc de Nantes (37 hectares) entoure un château du XVIIIe siècle. Il abrite une exceptionnelle collection de plantes exotiques, un jardin coréen, un jardin méditerranéen et un verger tropical.",
+    "short_description": "Grand parc exotique possédant un château et de riches serres.",
+    "gps_coordinates": "47.2272, -1.5085",
+    "distance_to_city_hall_km": 4.1
+  },
+  {
+    "name": "Parc des Oblates",
+    "city": "Nantes",
+    "has_playground": true,
+    "activities_5_7_years": "Découverte des animaux de la ferme, balançoires ajustées.",
+    "opening_hours_summer": "08:30-20:00",
+    "opening_hours_winter": "08:30-18:30",
+    "description": "Ce parc de 3 hectares occupe les anciens jardins suspendus d'un couvent de sœurs franciscaines. Il offre une vue plongeante sur la Loire, dispose d'un grand verger et accueille des moutons en éco-pâturage.",
+    "short_description": "Ancien jardin de couvent avec verger préservé et vue sur la Loire.",
+    "gps_coordinates": "47.2018, -1.5836",
+    "distance_to_city_hall_km": 3.1
+  },
+  {
+    "name": "Jardin des Plantes de Nantes",
+    "city": "Nantes",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux d'eau, labyrinthe de buissons, observation des fontaines de poissons.",
+    "opening_hours_summer": "08:30-20:00",
+    "opening_hours_winter": "08:30-18:30",
+    "description": "Ce jardin botanique d'exception s'étend sur 7 hectares. Il est mondialement connu pour ses collections de camélias, ses serres équatoriales et ses gigantesques sculptures végétales créées chaque année.",
+    "short_description": "Splendide jardin botanique aux œuvres végétales artistiques.",
+    "gps_coordinates": "47.2195, -1.5422",
+    "distance_to_city_hall_km": 0.9
+  },
+  {
+    "name": "Parc de la Gaudinière",
+    "city": "Nantes",
+    "has_playground": true,
+    "activities_5_7_years": "Ponts suspendus d'exploration, tyroliennes miniatures adaptées.",
+    "opening_hours_summer": "08:30-20:00",
+    "opening_hours_winter": "08:30-18:30",
+    "description": "Un parc romantique de 12 hectares doté d'un relief escarpé et boisé. Il abrite le château de la Gaudinière, un ruisseau de montagne artificiel et une célèbre collection de plantes bulbeuses.",
+    "short_description": "Espace verdoyant et boisé doté d'un cours d'eau de montagne.",
+    "gps_coordinates": "47.2435, -1.5735",
+    "distance_to_city_hall_km": 3.3
+  },
+  {
+    "name": "Parc de la Pastré",
+    "city": "Marseille",
+    "has_playground": true,
+    "activities_5_7_years": "Pistes de roller balisées, aires de varappe et structures à grimper.",
+    "opening_hours_summer": "06:00-21:00",
+    "opening_hours_winter": "06:00-19:30",
+    "description": "Ce parc exceptionnel de 120 hectares s'étend jusqu'aux collines des Calanques. Composé de forêts de pins, de bastides provençales et de prairies, il abrite également un centre équestre de premier plan.",
+    "short_description": "Immense domaine naturel boisé s'ouvrant sur les Calanques.",
+    "gps_coordinates": "43.2321, 5.3725",
+    "distance_to_city_hall_km": 7.8
+  },
+  {
+    "name": "Parc Longchamp",
+    "city": "Marseille",
+    "has_playground": true,
+    "activities_5_7_years": "Manège ancien, parcours de motricité pour enfants, bacs à sable.",
+    "opening_hours_summer": "06:00-21:00",
+    "opening_hours_winter": "06:00-19:30",
+    "description": "Ce parc entoure le somptueux Palais Longchamp, construit en 1869 pour célébrer l'arrivée des eaux de la Durance. Il conserve l'architecture de son ancien jardin zoologique du XIXe siècle.",
+    "short_description": "Parc historique entourant un palais somptueux avec cascades.",
+    "gps_coordinates": "43.3044, 5.3938",
+    "distance_to_city_hall_km": 1.7
+  },
+  {
+    "name": "Parc de Majolan",
+    "city": "Blanquefort",
+    "has_playground": true,
+    "activities_5_7_years": "Labyrinthes de chemins boisés, parcours de pontons, toboggans.",
+    "opening_hours_summer": "08:00-20:30",
+    "opening_hours_winter": "08:30-18:00",
+    "description": "Créé à la fin du XIXe siècle, ce parc de 20 hectares est célèbre pour son lac de 4 hectares et ses fausses grottes baroques en ciment sculpté. C'est un parfait exemple de jardin romantique.",
+    "short_description": "Parc romantique connu pour ses grottes artificielles et son lac.",
+    "gps_coordinates": "44.9124, -0.6402",
+    "distance_to_city_hall_km": 9.2
+  },
+  {
+    "name": "Parc Palmer",
+    "city": "Cenon",
+    "has_playground": true,
+    "activities_5_7_years": "Skatepark d'initiation, pelouses pour jeux de ballon, tyroliennes.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Vaste parc urbain de 25 hectares aménagé sur les coteaux de la rive droite. Il offre un panorama remarquable sur l'ensemble de l'agglomération bordelaise et entoure le château Palmer.",
+    "short_description": "Vaste parc de colline offrant une vue d'exception sur la Gironde.",
+    "gps_coordinates": "44.8586, -0.5234",
+    "distance_to_city_hall_km": 3.7
   },
   {
     "name": "Parc Rivière",
     "city": "Bordeaux",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Maison du jardinier (ateliers)",
-      "Cabanes en bois",
-      "Sentier découverte"
-    ],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "07:00 - 18:30",
-    "city_hall_message": null,
-    "description": "Aménagé dans les jardins d'un ancien château du XIXe siècle dont les ruines ont été consolidées et végétalisées, ce parc de 4 hectares est un havre d'intimité forestière remarquable, abritant la très conviviale Maison du Jardinier.",
-    "short_description": "Parc intimiste boisé entourant les ruines poétiques d'un vieux château.",
-    "gps_coordinates": {
-      "latitude": 44.8589,
-      "longitude": -0.5844
-    },
+    "activities_5_7_years": "Maison du jardinier avec ateliers ludiques, aires de jeux clos.",
+    "opening_hours_summer": "07:00-21:00",
+    "opening_hours_winter": "07:00-18:30",
+    "description": "Ce parc de 4 hectares entoure les ruines romantiques d'un château du XIXe siècle. Très arboré, il propose une promenade ombragée singulière et accueille une tonnelle recouverte de glycines.",
+    "short_description": "Jardin intimiste boisé niché autour des ruines d'un château.",
+    "gps_coordinates": "44.8561, -0.5841",
     "distance_to_city_hall_km": 1.7
   },
   {
-    "name": "Parc de l'Orangerie (Zone Sud)",
-    "city": "Strasbourg",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade ombragée"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.5889,
-      "longitude": 7.7756
-    },
-    "distance_to_city_hall_km": 2.7
+    "name": "Parc de Compans-Caffarelli",
+    "city": "Toulouse",
+    "has_playground": true,
+    "activities_5_7_years": "Passerelles d'observation, toboggans, jeux à bascule en bois.",
+    "opening_hours_summer": "07:45-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce parc de 10 hectares créé dans les années 1980 comprend une vaste prairie. Sa particularité est d'héberger un jardin japonais clos classé Jardin Remarquable, avec un pavillon de thé traditionnel.",
+    "short_description": "Parc urbain abritant un authentique jardin japonais traditionnel.",
+    "gps_coordinates": "43.6105, 1.4312",
+    "distance_to_city_hall_km": 1.1
   },
   {
-    "name": "Parc de Maurepas",
+    "name": "Parc de la Reynerie",
+    "city": "Toulouse",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux thématisées, parcours d'exploration sous les arbres.",
+    "opening_hours_summer": "07:45-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce parc de 6 hectares entoure un château construit au XVIIIe siècle. Il s'agit d'un jardin régulier composé de parterres de broderies de buis, d'un grand bassin de rafraîchissement et d'une orangerie.",
+    "short_description": "Jardin à la française classé Monument Historique au bord d'un lac.",
+    "gps_coordinates": "43.5724, 1.3932",
+    "distance_to_city_hall_km": 4.8
+  },
+  {
+    "name": "Zone Verte de la Ramée",
+    "city": "Tournefeuille",
+    "has_playground": true,
+    "activities_5_7_years": "Modélisme naval, pistes de vélo balisées, grands espaces de jeux.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Une immense base de loisirs de 64 hectares aménagée autour d'un grand lac. Elle regroupe de multiples infrastructures sportives, des zones boisées pour pique-niquer et des aires de jeux pour enfants.",
+    "short_description": "Immense base de loisirs de l'ouest toulousain avec grand lac.",
+    "gps_coordinates": "43.5781, 1.3538",
+    "distance_to_city_hall_km": 7.9
+  },
+  {
+    "name": "Parc Oberthür",
+    "city": "Rennes",
+    "has_playground": false,
+    "activities_5_7_years": "Observation des canards et des carpes koï, pontons en bois.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Créé en 1863 par Denis Bühler pour l'imprimeur François-Charles Oberthür, ce parc à l'anglaise de 3 hectares possède un grand étang. C'est un arboretum réputé pour sa tranquillité en centre-ville.",
+    "short_description": "Parc paysager romantique d'une grande sérénité avec étang.",
+    "gps_coordinates": "48.1128, -1.6614",
+    "distance_to_city_hall_km": 1.1
+  },
+  {
+    "name": "Parc des Gayeulles",
     "city": "Rennes",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Piste cyclable d'apprentissage",
-      "Pataugeoire d'été",
-      "Balançoires"
-    ],
-    "opening_hours_summer": "07:45 - 20:15",
-    "opening_hours_winter": "07:45 - 18:15",
-    "city_hall_message": "La pataugeoire est activée uniquement lorsque la température dépasse 24°C.",
-    "description": "Créé dans les années 1930, ce parc d'inspiration classique de 5 hectares est idéal pour les tout-petits grâce à sa piste d'initiation au code de la route pour vélos, ses pelouses denses et sa pataugeoire en briques rouges.",
-    "short_description": "Parc familial des années 30 avec mini-piste cyclable et pataugeoire.",
-    "gps_coordinates": {
-      "latitude": 48.1256,
-      "longitude": -1.6589
-    },
-    "distance_to_city_hall_km": 2.1
+    "activities_5_7_years": "Parcours accrobranche junior, ferme pour enfants, pédalos.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Véritable forêt urbaine de 100 hectares au nord-est de la ville. Le parc offre cinq plans d'eau, une faune sauvage riche, un camping, un parcours de santé et d'immenses espaces récréatifs.",
+    "short_description": "Immense parc forestier avec lacs, animaux et accrobranche.",
+    "gps_coordinates": "48.1364, -1.6421",
+    "distance_to_city_hall_km": 3.4
   },
   {
-    "name": "Square de la Bouquetière",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7589,
-      "longitude": 4.8272
-    },
-    "distance_to_city_hall_km": 0.6
-  },
-  {
-    "name": "Jardin des Plantes",
-    "city": "Paris",
+    "name": "Parc de Bréquigny",
+    "city": "Rennes",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Ménagerie (zoo historique)",
-      "Labyrinthe végétal",
-      "Grande Galerie de l'Évolution"
-    ],
-    "opening_hours_summer": "07:30 - 20:00",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": "Les galeries scientifiques du Muséum requièrent un billet spécifique.",
-    "description": "Ce pôle scientifique d'excellence fondé il y a près de 4 siècles est le cœur historique du Muséum national d'histoire naturelle. Ses perspectives majestueuses, ses serres monumentales et sa mythique Ménagerie captivent petits et grands.",
-    "short_description": "Célèbre cœur de la science naturelle avec grandes serres et ménagerie.",
-    "gps_coordinates": {
-      "latitude": 48.8433,
-      "longitude": 2.3594
-    },
-    "distance_to_city_hall_km": 2.2
+    "activities_5_7_years": "Jeux d'escalade, pataugeoire d'été, toboggans doubles.",
+    "opening_hours_summer": "08:00-20:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Ce parc de 17 hectares au sud de Rennes offre des ambiances variées entre des espaces boisés sauvages, un grand étang ceinturé de roseaux, des prairies ouvertes et une pataugeoire estivale très prisée.",
+    "short_description": "Parc champêtre méridional doté d'une grande pataugeoire.",
+    "gps_coordinates": "48.0872, -1.6885",
+    "distance_to_city_hall_km": 3.2
   },
   {
-    "name": "Jardin Archéologique",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Découverte des ruines médiévales"
-    ],
-    "opening_hours_summer": "08:00 - 22:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7614,
-      "longitude": 4.8272
-    },
-    "distance_to_city_hall_km": 0.9
+    "name": "Parc Sainte-Marie",
+    "city": "Nancy",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux ombragées, manèges d'enfants, terrains de billes.",
+    "opening_hours_summer": "06:30-22:00",
+    "opening_hours_winter": "06:30-20:00",
+    "description": "Créé au XIXe siècle, ce parc de 7 hectares est planté de séquoias et de tulipiers. C'est un lieu historique très ombragé qui jouxte le complexe thermal Nancy Thermal réhabilité.",
+    "short_description": "Grand parc paysager boisé abritant des arbres centenaires.",
+    "gps_coordinates": "48.6804, 6.1712",
+    "distance_to_city_hall_km": 1.4
   },
   {
-    "name": "Parc des Parcours",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2411,
-      "longitude": 5.4211
-    },
-    "distance_to_city_hall_km": 8.0
+    "name": "Parc de la Cure d'Air",
+    "city": "Nancy",
+    "has_playground": true,
+    "activities_5_7_years": "Structures d'escalade en bois, jeux d'équilibre adaptés.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ancien lieu de cure de repos au début du XXe siècle, ce parc de 2 hectares est perché sur les hauteurs de Nancy. Son verger de mirabelliers sauvages complète un point de vue exceptionnel.",
+    "short_description": "Parc sur les collines offrant un splendide panorama sur la ville.",
+    "gps_coordinates": "48.6942, 6.1582",
+    "distance_to_city_hall_km": 1.4
   },
   {
-    "name": "Jardin de la Chartreuse",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade"
-    ],
-    "opening_hours_summer": "06:00 - 22:00",
-    "opening_hours_winter": "07:00 - 19:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7703,
-      "longitude": 4.8211
-    },
+    "name": "Parc Olry",
+    "city": "Nancy",
+    "has_playground": true,
+    "activities_5_7_years": "Bacs à sable, petits ponts d'exploration, toboggans.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Légué à la commune par le pépiniériste Achille Olry, ce parc de 2 hectares se distingue par la rareté de ses arbres tropicaux et ses magnifiques compositions florales entretenues au fil des saisons.",
+    "short_description": "Jardin botanique d'agrément aux essences d'arbres rares.",
+    "gps_coordinates": "48.6791, 6.1964",
     "distance_to_city_hall_km": 1.6
   },
   {
-    "name": "Parc des Buttes-Chaumont (Haut)",
-    "city": "Paris",
+    "name": "Parc de la Toison d'Or",
+    "city": "Dijon",
+    "has_playground": true,
+    "activities_5_7_years": "Parcours accrobranche junior, toboggan géant, enclos à chèvres.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-19:00",
+    "description": "Parc urbain contemporain de 12 hectares inauguré en 1990. Conçu comme une zone de transition écologique, il rassemble de grandes pelouses, des enclos animaliers pédagogiques et des bassins modernes.",
+    "short_description": "Parc contemporain avec animaux de la ferme et grands jeux.",
+    "gps_coordinates": "47.3558, 5.0582",
+    "distance_to_city_hall_km": 3.9
+  },
+  {
+    "name": "Jardin de l'Arquebuse",
+    "city": "Dijon",
+    "has_playground": true,
+    "activities_5_7_years": "Parcours d'éveil scientifique, jeux de motricité en plein air.",
+    "opening_hours_summer": "07:30-20:00",
+    "opening_hours_winter": "08:00-17:30",
+    "description": "Ce parc d'agrément de 5 hectares réunit un jardin botanique, un planétarium et le Muséum d'Histoire Naturelle. Traversé par le ruisseau du Raines, il conserve un charme classique et scientifique unique.",
+    "short_description": "Complexe de culture scientifique niché dans un riche arboretum.",
+    "gps_coordinates": "47.3221, 5.0278",
+    "distance_to_city_hall_km": 0.8
+  },
+  {
+    "name": "Parc de la Colombière",
+    "city": "Dijon",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux forestières, observation des biches, manège.",
+    "opening_hours_summer": "07:30-21:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Classé Monument Historique, ce parc forestier de 33 hectares a été tracé au XVIIe siècle. Ses larges allées rectilignes en étoile abritent un parc de daims ainsi que de nombreux vestiges romains.",
+    "short_description": "Vaste forêt historique tracée sur un modèle à la française.",
+    "gps_coordinates": "47.3052, 5.0494",
+    "distance_to_city_hall_km": 2.3
+  },
+  {
+    "name": "Parc Saint-Pierre",
+    "city": "Amiens",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux d'eau, labyrinthes de passerelles en bois, toboggans.",
+    "opening_hours_summer": "08:00-22:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Récompensé par le Prix du paysage, ce grand espace contemporain de 22 hectares fait le lien entre la vieille ville et les hortillonnages. Il intègre des canaux, des miroirs d'eau et de grandes plaines.",
+    "short_description": "Parc contemporain d'eau et de verdure au pied de la cathédrale.",
+    "gps_coordinates": "49.8995, 2.3122",
+    "distance_to_city_hall_km": 0.7
+  },
+  {
+    "name": "Parc d'Isle",
+    "city": "Saint-Quentin",
+    "has_playground": true,
+    "activities_5_7_years": "Ferme pédagogique, structures de grimpe, tyroliennes enfants.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "09:00-18:00",
+    "description": "Véritable réserve naturelle urbaine de 48 hectares bordée par la Somme. Le parc comprend un espace zoologique gratuit, une grande ferme pédagogique et des zones humides d'observation ornithologique.",
+    "short_description": "Parc de nature sauvage et réserve d'oiseaux avec zoo gratuit.",
+    "gps_coordinates": "49.8452, 3.3031",
+    "distance_to_city_hall_km": 1.2
+  },
+  {
+    "name": "Parc Victor Thuillat",
+    "city": "Limoges",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux closes avec structures de grimpe en bois.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Ce parc paysager à l'anglaise de 3,5 hectares présente une ambiance champêtre et romantique. Un ruisseau traverse le domaine qui abrite également un kiosque en bois et d'importantes rocailles fleuries.",
+    "short_description": "Jardin de style anglais traversé par un agréable ruisseau.",
+    "gps_coordinates": "45.8452, 1.2482",
+    "distance_to_city_hall_km": 1.8
+  },
+  {
+    "name": "Parc de la Colline aux Oiseaux",
+    "city": "Caen",
+    "has_playground": true,
+    "activities_5_7_years": "Labyrinthe de haies, ferme pour enfants, grands toboggans de colline.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-17:30",
+    "description": "Inauguré pour le cinquantenaire du Débarquement sur un ancien site de décharge, ce parc paysager de 17 hectares comprend une immense roseraie, un labyrinthe normand et un jardin de la paix.",
+    "short_description": "Vaste parc paysager avec une roseraie et un grand labyrinthe.",
+    "gps_coordinates": "49.2025, -0.3941",
+    "distance_to_city_hall_km": 2.7
+  },
+  {
+    "name": "Parc de l'Europe",
+    "city": "Saint-Étienne",
+    "has_playground": true,
+    "activities_5_7_years": "Voyage en mini-train à vapeur historique, manèges, balançoires.",
+    "opening_hours_summer": "08:00-21:30",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Grand parc urbain de 11 hectares aménagé dans les années 1960. Très boisé, il est traversé par de larges allées et se distingue par son petit train à vapeur, véritable attraction locale pour les familles.",
+    "short_description": "Parc boisé familial connu pour son célèbre mini-train à vapeur.",
+    "gps_coordinates": "45.4231, 4.4042",
+    "distance_to_city_hall_km": 2.2
+  },
+  {
+    "name": "Jardin des Plantes de Rouen",
+    "city": "Rouen",
+    "has_playground": true,
+    "activities_5_7_years": "Pataugeoire d'été, structures d'escalade, miroirs d'eau ludiques.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-17:45",
+    "description": "Ce prestigieux jardin botanique de 8 hectares abrite des serres de collection remarquables, un grand bassin central et une volière. C'est le principal conservatoire de la flore normande.",
+    "short_description": "Jardin de sciences et d'agrément abritant de grandes serres.",
+    "gps_coordinates": "49.4215, 1.0792",
+    "distance_to_city_hall_km": 2.1
+  },
+  {
+    "name": "Parc Floral de la Source",
+    "city": "Orléans",
+    "has_playground": true,
+    "activities_5_7_years": "Enclos des animaux, mini-golf de l'Europe, grands jeux de corde.",
+    "opening_hours_summer": "10:00-19:00",
+    "opening_hours_winter": "14:00-17:00",
+    "description": "Ce domaine d'exception de 35 hectares abrite l'endroit exact où le Loiret prend sa source. Classé Jardin Remarquable, il dispose d'une immense serre aux papillons, d'une roseraie et d'un parc animalier.",
+    "short_description": "Site naturel d'exception abritant la source historique du Loiret.",
+    "gps_coordinates": "47.8505, 1.9364",
+    "distance_to_city_hall_km": 7.1
+  },
+  {
+    "name": "Parc Paul Mistral",
+    "city": "Grenoble",
+    "has_playground": true,
+    "activities_5_7_years": "Pistes de rollers, toboggans doubles, jeux d'adresse en bois.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Le poumon vert de Grenoble s'étend sur 21 hectares sur le site de l'Exposition internationale de 1925. Il entoure la célèbre Tour Perret, le Palais des Sports et de grandes plaines de pelouses libres.",
+    "short_description": "Immense parc historique grenoblois abritant la Tour Perret.",
+    "gps_coordinates": "45.1872, 5.7364",
+    "distance_to_city_hall_km": 0.9
+  },
+  {
+    "name": "Parc Phoenix",
+    "city": "Nice",
+    "has_playground": true,
+    "activities_5_7_years": "Parcours sensoriel, observation des lémuriens, pontons de jeux.",
+    "opening_hours_summer": "09:30-19:30",
+    "opening_hours_winter": "09:30-18:00",
+    "description": "Ce parc botanique et zoologique de 7 hectares fait face à la mer. Il abrite l'une des plus grandes serres pyramidales d'Europe, recréant six climats tropicaux différents au milieu de centaines d'animaux.",
+    "short_description": "Parc animalier exotique doté d'une gigantesque serre en verre.",
+    "gps_coordinates": "43.6685, 7.2182",
+    "distance_to_city_hall_km": 5.4
+  },
+  {
+    "name": "Jardin des Plantes de Montpellier",
+    "city": "Montpellier",
     "has_playground": false,
-    "activities_5_7_years": [
-      "Randonnée urbaine"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8822,
-      "longitude": 2.3844
-    },
-    "distance_to_city_hall_km": 3.6
+    "activities_5_7_years": "Parcours de découverte des arbres creux, observation des tortues.",
+    "opening_hours_summer": "12:00-20:00",
+    "opening_hours_winter": "12:00-18:00",
+    "description": "Fondé en 1593 par Henri IV, c'est le plus ancien jardin botanique de France. Géré par l'Université, il s'étend sur 4 hectares et protège des arbres tricentenaires ainsi qu'une célèbre serre de cactus.",
+    "short_description": "Le plus ancien jardin de médecine et de botanique du pays.",
+    "gps_coordinates": "43.6138, 3.8714",
+    "distance_to_city_hall_km": 0.6
+  },
+ {
+    "name": "Parc Méric",
+    "city": "Montpellier",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux, grands espaces de course, observation des oiseaux du fleuve.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ancien domaine de la famille du peintre Frédéric Bazille, ce parc de 12 hectares borde le Lez. Il est célèbre pour ses magnifiques prairies de coquelicots au printemps et ses arbres méditerranéens.",
+    "short_description": "Splendide domaine arboré en bord de fleuve avec des prairies fleuries.",
+    "gps_coordinates": "43.6285, 3.8894",
+    "distance_to_city_hall_km": 2.5
+  },
+  {
+    "name": "Parc de la pépinière",
+    "city": "Gap",
+    "has_playground": true,
+    "activities_5_7_years": "Toboggans, balançoires, mini-golf et structures gonflables en saison.",
+    "opening_hours_summer": "07:30-21:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Poumon vert du centre-ville, ce parc paysager ombragé regorge d'essences d'arbres remarquables et de grands espaces de détente. Il accueille de nombreuses animations culturelles durant l'été.",
+    "short_description": "Le poumon vert historique de Gap avec de grands arbres centenaires.",
+    "gps_coordinates": "44.5596, 6.0801",
+    "distance_to_city_hall_km": 0.4
+  },
+  {
+    "name": "Jardin des plantes",
+    "city": "Avignon",
+    "has_playground": true,
+    "activities_5_7_years": "Petite mare aux canards, manège de chevaux de bois, balançoires claires.",
+    "opening_hours_summer": "07:30-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Situé non loin des remparts historiques, ce square arboré offre un cadre reposant et frais au cœur de la cité des Papes, idéal pour s'isoler du soleil d'été sous ses grands feuillages.",
+    "short_description": "Jardin de centre-ville ombragé et calme avec bassins et canards.",
+    "gps_coordinates": "43.9412, 4.8115",
+    "distance_to_city_hall_km": 0.8
+  },
+  {
+    "name": "Parc des Allées",
+    "city": "Vesoul",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux de cordage, toboggans, pistes goudronnées pour petites trottinettes.",
+    "opening_hours_summer": "07:00-22:00",
+    "opening_hours_winter": "08:00-19:00",
+    "description": "Ce parc urbain traditionnel s'organise autour de longues allées de tilleuls majestueux. Très apprécié des familles locales, il propose un cadre serein et sécurisé pour les jeux extérieurs.",
+    "short_description": "Parc familial traditionnel réputé pour ses grandes allées de tilleuls.",
+    "gps_coordinates": "47.6231, 6.1604",
+    "distance_to_city_hall_km": 0.5
+  },
+  {
+    "name": "Jardin d'Allard",
+    "city": "Montbrison",
+    "has_playground": true,
+    "activities_5_7_years": "Grand manège rétro, structures de glisse en plastique, bacs de sable.",
+    "opening_hours_summer": "07:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce splendide jardin public entoure le musée d'Allard. Conçu à l'anglaise avec un étang central et des cygnes, il offre une halte botanique remarquable grâce à des essences exotiques d'arbres.",
+    "short_description": "Jardin paysager à l'anglaise entourant un hôtel particulier classique.",
+    "gps_coordinates": "45.6067, 4.0622",
+    "distance_to_city_hall_km": 0.3
+  },
+  {
+    "name": "Parc thermal",
+    "city": "Vittel",
+    "has_playground": true,
+    "activities_5_7_years": "Sentiers d'écureuils, mini-golf pour petits, rosalies en famille.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Vaste domaine de plusieurs dizaines d'hectares, le parc de la station thermale combine architecture Belle Époque, pelouses impeccables et forêts de transition propices aux balades de santé.",
+    "short_description": "Immense parc thermal historique d'architecture Belle Époque.",
+    "gps_coordinates": "48.2014, 5.9452",
+    "distance_to_city_hall_km": 0.9
+  },
+  {
+    "name": "Parc de l'Évêché",
+    "city": "Castres",
+    "has_playground": false,
+    "activities_5_7_years": "Labyrinthes géométriques de buis, parcours d'orientation photo.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Dessiné par André Le Nôtre au XVIIe siècle, ce jardin à la française est une pure merveille géométrique. Ses broderies de buis dessinent le blason de la ville au pied de l'ancien palais épiscopal.",
+    "short_description": "Splendide œuvre d'art à la française dessinée par André Le Nôtre.",
+    "gps_coordinates": "43.6041, 2.2422",
+    "distance_to_city_hall_km": 0.1
+  },
+  {
+    "name": "Parc du Chateau",
+    "city": "Épinal",
+    "has_playground": true,
+    "activities_5_7_years": "Parc animalier, grand château de sable, jeux d'adresse en bois.",
+    "opening_hours_summer": "07:30-20:00",
+    "opening_hours_winter": "08:00-17:00",
+    "description": "Dominant la ville depuis sa colline fortifiée, ce domaine abrite les ruines du château médiéval. Il intègre un parc de vision avec des animaux de la forêt, des jardins thématiques et de grands jeux.",
+    "short_description": "Parc perché sur les ruines médiévales avec un enclos animalier.",
+    "gps_coordinates": "48.1764, 6.4561",
+    "distance_to_city_hall_km": 0.6
+  },
+  {
+    "name": "Jardin de l'Évêché",
+    "city": "Lisieux",
+    "has_playground": true,
+    "activities_5_7_years": "Toboggans, cabanes en bois miniatures, parcours de petits pas.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:30-17:30",
+    "description": "Ce jardin classique offre une perspective soignée avec ses allées symétriques de tilleuls et ses massifs fleuris réguliers. C'est un havre de calme et d'histoire situé juste à côté de la cathédrale.",
+    "short_description": "Jardin géométrique calme bordé de tilleuls et de grands massifs.",
+    "gps_coordinates": "49.1462, 0.2268",
+    "distance_to_city_hall_km": 0.2
+  },
+  {
+    "name": "Parc de Castillon",
+    "city": "Tarnos",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux dans les bois, parcours d'adresse pour enfants.",
+    "opening_hours_summer": "08:00-21:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Ce domaine naturel de 13 hectares entoure un joli château du XIXe siècle. Boisé de chênes et de pins, il abrite un grand étang central où l'on peut observer les canards sauvages et les tortues.",
+    "short_description": "Espace boisé landais avec un grand étang paisible et un château.",
+    "gps_coordinates": "43.5358, -1.4512",
+    "distance_to_city_hall_km": 1.5
+  },
+  {
+    "name": "Jardin Lecoq",
+    "city": "Clermont-Ferrand",
+    "has_playground": true,
+    "activities_5_7_years": "Observation des cygnes, aires de jeux sécurisées, manège.",
+    "opening_hours_summer": "06:45-21:00",
+    "opening_hours_winter": "07:15-19:00",
+    "description": "Magnifique jardin public de 5 hectares au cœur de la ville universitaire. Conçu à l'anglaise avec des pelouses vallonnées, un grand bassin, des ponts en pierre et une roseraie particulièrement soignée.",
+    "short_description": "Jardin à l'anglaise avec bassin, roseraie et arbres remarquables.",
+    "gps_coordinates": "45.7728, 3.0882",
+    "distance_to_city_hall_km": 0.6
+  },
+  {
+    "name": "Parc du Verney",
+    "city": "Chambéry",
+    "has_playground": true,
+    "activities_5_7_years": "Balançoires adaptées, structures de cordes, pistes de patins.",
+    "opening_hours_summer": "07:30-21:30",
+    "opening_hours_winter": "08:00-19:00",
+    "description": "Le plus ancien jardin public de la ville, aménagé à l'emplacement d'anciens marécages. Ce grand espace arboré rectiligne accueille un kiosque à musique historique et d'importantes zones de jeux familiales.",
+    "short_description": "Le plus ancien parc arboré de Chambéry avec un joli kiosque.",
+    "gps_coordinates": "45.5694, 5.9182",
+    "distance_to_city_hall_km": 0.4
+  },
+  {
+    "name": "Parc des Capucins",
+    "city": "Coulommiers",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux en bois de pin, parcours de motricité bas, bac à sable.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Considéré comme l'un des plus beaux parcs de la région, ce site historique abrite les vestiges d'un château du XVIIe siècle et une église transformée. Il est entouré par les bras de la rivière du Grand Morin.",
+    "short_description": "Parc historique entouré d'eau avec des ruines majestueuses.",
+    "gps_coordinates": "48.8122, 3.0854",
+    "distance_to_city_hall_km": 0.3
+  },
+  {
+    "name": "Parc de l'Arbre Sec",
+    "city": "Auxerre",
+    "has_playground": true,
+    "activities_5_7_years": "Structures de glisse, bateaux télécommandés sur bassin, tyrolienne.",
+    "opening_hours_summer": "07:30-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Situé en bordure de l'Yonne, ce grand parc paysager est relié au centre historique par une passerelle piétonne. Il propose de vastes pelouses, des collections de plantes et un stade nautique attenant.",
+    "short_description": "Grand parc au bord de l'eau idéal pour les jeux et la promenade.",
+    "gps_coordinates": "47.7915, 3.5824",
+    "distance_to_city_hall_km": 1.1
+  },
+  {
+    "name": "Jardin Darcy",
+    "city": "Dijon",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux closes, observation de la statue de l'ours Pompon.",
+    "opening_hours_summer": "07:30-21:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Premier jardin public créé à Dijon au XIXe siècle au-dessus d'un réservoir d'eau. Ce parc de style néo-renaissance possède des terrasses, des bassins, des cascades et le célèbre ours en pierre sculpté.",
+    "short_description": "Jardin de style néo-renaissance célèbre pour son grand ours blanc.",
+    "gps_coordinates": "47.3246, 5.0345",
+    "distance_to_city_hall_km": 0.5
+  },
+  {
+    "name": "Parc de l'Auzon",
+    "city": "Carpentras",
+    "has_playground": true,
+    "activities_5_7_years": "Skatepark d'initiation, structures gonflables estivales, balançoires.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Ce parc urbain moderne longe le cours de la rivière Auzon. Équipé de vastes pelouses et de structures sportives légères, il constitue le pôle de loisirs privilégié des enfants et adolescents de la ville.",
+    "short_description": "Espace de loisirs moderne et arboré aménagé le long de la rivière.",
+    "gps_coordinates": "44.0528, 5.0514",
+    "distance_to_city_hall_km": 0.6
+  },
+  {
+    "name": "Parc de la Bouvaque",
+    "city": "Abbeville",
+    "has_playground": false,
+    "activities_5_7_years": "Sentiers d'observation de la faune aquatique, pontons en bois.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:30-17:00",
+    "description": "Vaste espace naturel de 60 hectares composé de marais et d'étangs de tufs. Le site est remarquable pour ses 'Sources Bleues' et sa grande réserve ornithologique abritant de nombreuses espèces de canards.",
+    "short_description": "Vaste parc de marais naturel abritant de magnifiques sources bleues.",
+    "gps_coordinates": "50.1114, 1.8452",
+    "distance_to_city_hall_km": 1.4
+  },
+  {
+    "name": "Parc de Sceaux",
+    "city": "Sceaux",
+    "has_playground": true,
+    "activities_5_7_years": "Grands toboggans tubulaires, balançoires à bascule, plaine de jeux.",
+    "opening_hours_summer": "07:00-22:00",
+    "opening_hours_winter": "08:00-17:00",
+    "description": "Dessiné par André Le Nôtre à la fin du XVIIe siècle, ce domaine départemental de 180 hectares entoure un splendide château. Il est réputé pour son grand canal, ses cascades et ses cerisiers du Japon.",
+    "short_description": "Immense domaine à la française réputé pour ses cerisiers en fleurs.",
+    "gps_coordinates": "48.7758, 2.3015",
+    "distance_to_city_hall_km": 9.5
+  },
+  {
+    "name": "Parc des Impressionnistes",
+    "city": "Rueil-Malmaison",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux de pontons, toboggans thématiques, balançoires closes.",
+    "opening_hours_summer": "07:30-20:00",
+    "opening_hours_winter": "07:30-18:00",
+    "description": "Situé en bord de Seine, ce charmant parc de 1,2 hectare rend hommage à Claude Monet. Il dispose d'un magnifique étang aux nénuphars enjambé par un pont en bois qui s'inspire du célèbre jardin de Giverny.",
+    "short_description": "Jardin floral thématique inspiré du célèbre bassin de Monet.",
+    "gps_coordinates": "48.8912, 2.1685",
+    "distance_to_city_hall_km": 1.4
+  },
+  {
+    "name": "Parc de l'Orangerie",
+    "city": "Le Bouscat",
+    "has_playground": true,
+    "activities_5_7_years": "Mini-ferme pédagogique, labyrinthe de buissons bas, toboggans.",
+    "opening_hours_summer": "08:00-20:30",
+    "opening_hours_winter": "08:30-18:00",
+    "description": "Ce parc abrite le conservatoire municipal ainsi qu'une chartreuse du XVIIIe siècle. Très soigné, il dispose d'un potager pédagogique, d'enclos avec des animaux de la ferme et d'arbres centenaires.",
+    "short_description": "Parc avec une chartreuse historique et une petite ferme animée.",
+    "gps_coordinates": "44.8645, -0.5982",
+    "distance_to_city_hall_km": 3.1
+  },
+  {
+    "name": "Parc bordelais",
+    "city": "Bordeaux",
+    "has_playground": true,
+    "activities_5_7_years": "Petit train, théâtre de marionnettes traditionnel, enclos animaux.",
+    "opening_hours_summer": "07:00-21:00",
+    "opening_hours_winter": "07:00-18:30",
+    "description": "Inauguré par Napoléon III, ce parc de 28 hectares est conçu comme une forêt au cœur de la ville. Il abrite un grand lac de canotage, des animaux de fermes locales et d'immenses aires de jeux boisées.",
+    "short_description": "Immense parc forestier urbain avec un lac et des animaux.",
+    "gps_coordinates": "44.8532, -0.6012",
+    "distance_to_city_hall_km": 2.2
+  },
+  {
+    "name": "Parc thermal",
+    "city": "Aix-les-Bains",
+    "has_playground": true,
+    "activities_5_7_years": "Structures de varappe pour enfants, toboggans, pistes cyclables.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Situé en centre-ville, ce parc historique de style romantique entoure les anciens thermes nationaux. Ses arbres centenaires offrent un cadre ombragé magnifique pour les familles et les curistes.",
+    "short_description": "Parc romantique ombragé doté de superbes arbres centenaires.",
+    "gps_coordinates": "45.6885, 5.9152",
+    "distance_to_city_hall_km": 0.2
+  },
+  {
+    "name": "Jardin de la fontaine",
+    "city": "Nîmes",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux d'adresse, parcours sous les arbres, observation des poissons.",
+    "opening_hours_summer": "07:30-22:00",
+    "opening_hours_winter": "07:30-18:30",
+    "description": "Créé au XVIIIe siècle sur un site antique exceptionnel, ce parc est l'un des premiers jardins publics d'Europe. Il intègre la source de la divinité Nemausus, des canaux romains et le Temple de Diane.",
+    "short_description": "Chef-d'œuvre classique intégrant des monuments romains antiques.",
+    "gps_coordinates": "43.8394, 4.3496",
+    "distance_to_city_hall_km": 0.8
+  },
+  {
+    "name": "Parc du Kirchberg",
+    "city": "Luxembourg",
+    "has_playground": true,
+    "activities_5_7_years": "Labyrinthes en herbe, toboggans, terrains de jeux de billes clos.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Grand parc contemporain situé au cœur du quartier des institutions européennes. Il propose de vastes étendues d'herbe, des parcours de sculptures modernes et un étang artificiel avec amphithéâtre.",
+    "short_description": "Vaste parc contemporain parsemé d'œuvres d'art modernes.",
+    "gps_coordinates": "49.6264, 6.1452",
+    "distance_to_city_hall_km": 3.1
+  },
+  {
+    "name": "Parc de l'Esplanade",
+    "city": "Metz",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux d'eau estivaux, structures de cordes, carrousel d'époque.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Ce parc de 9 hectares de style classique français offre une vue dégagée sur la vallée de la Moselle. Orné de statues de bronze et de fontaines lumineuses, il communique directement avec le lac aux cygnes.",
+    "short_description": "Jardin classique offrant un panorama ouvert sur la Moselle.",
+    "gps_coordinates": "49.1162, 6.1714",
+    "distance_to_city_hall_km": 0.5
+  },
+  {
+    "name": "Parc de la Meilleraie",
+    "city": "Cholet",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de glisse, jeux de sable closes, structures à escalader.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce parc urbain de loisirs s'organise autour d'un grand lac artificiel. Il jouxte le parc des expositions et propose de nombreuses activités familiales ainsi que de grands espaces ombragés de détente.",
+    "short_description": "Espace de loisirs paysager structuré autour d'un grand lac.",
+    "gps_coordinates": "47.0514, -0.8931",
+    "distance_to_city_hall_km": 2.4
+  },
+  {
+    "name": "Jardin des plantes",
+    "city": "Angers",
+    "has_playground": true,
+    "activities_5_7_years": "Enclos des chèvres, petits ponts de bois, toboggans sécurisés.",
+    "opening_hours_summer": "07:30-20:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Ce splendide jardin botanique de 4 hectares de style anglais abrite un ruisseau, des cascades, une volière riche et des enclos animaliers. C'est un véritable écrin de nature au cœur du centre historique.",
+    "short_description": "Jardin paysager à l'anglaise avec cascade et parc animalier.",
+    "gps_coordinates": "47.4746, -0.5452",
+    "distance_to_city_hall_km": 0.5
+  },
+  {
+    "name": "Parc de l'Europe",
+    "city": "Saint-Quentin",
+    "has_playground": true,
+    "activities_5_7_years": "Rosalies, manège pour enfants, structures gonflables et tyroliennes.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:30-18:00",
+    "description": "Grand parc familial très animé proposant une large palette d'activités payantes et gratuites pour les enfants. Ses larges allées fleuries et ombragées ceinturent de vastes plaines de pelouse.",
+    "short_description": "Parc récréatif dynamique doté d'importantes infrastructures de jeux.",
+    "gps_coordinates": "49.8514, 3.2842",
+    "distance_to_city_hall_km": 1.1
+  },
+  {
+    "name": "Parc des Noues",
+    "city": "Montereau",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux thématiques navales, toboggans, structures de corde.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce grand parc paysager est encadré par les bras de la Seine et de l'Yonne. Il accueille les grands événements festifs de la commune et offre de longues allées ombragées pour les promeneurs.",
+    "short_description": "Espace de verdure encadré par le confluent de deux fleuves.",
+    "gps_coordinates": "48.3882, 2.9561",
+    "distance_to_city_hall_km": 0.4
+  },
+  {
+    "name": "Parc du domaine",
+    "city": "Sceaux",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux en bois de pin, parcours de motricité bas, bac à sable.",
+    "opening_hours_summer": "07:00-22:00",
+    "opening_hours_winter": "08:00-17:00",
+    "description": "Grand paysage vallonné conçu par André Le Nôtre au XVIIe siècle. Ce site de 180 hectares réunit d'immenses cascades, des canaux d'agrément, des broderies géométriques de buis et de grands boisements.",
+    "short_description": "Chef-d'œuvre à la française de Le Nôtre avec de grandes cascades.",
+    "gps_coordinates": "48.7745, 2.3022",
+    "distance_to_city_hall_km": 9.2
+  },
+  {
+    "name": "Parc de Blossac",
+    "city": "Poitiers",
+    "has_playground": true,
+    "activities_5_7_years": "Petit parc zoologique, manège d'époque, aires de jeux closes.",
+    "opening_hours_summer": "06:45-21:30",
+    "opening_hours_winter": "06:45-19:00",
+    "description": "Créé au XVIIIe siècle le long des remparts médiévaux, ce parc de 9 hectares réunit un jardin à la française rectiligne, un jardin anglais sinueux, un grand labyrinthe végétal et un espace animalier.",
+    "short_description": "Parc historique d'exception niché le long des vieux remparts.",
+    "gps_coordinates": "46.5752, 0.3382",
+    "distance_to_city_hall_km": 0.7
+  },
+  {
+    "name": "Parc de la Pépinière",
+    "city": "Belfort",
+    "has_playground": true,
+    "activities_5_7_years": "Rosalies, manège pour enfants, structures gonflables et tyroliennes.",
+    "opening_hours_summer": "07:00-21:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Situé au pied des fortifications de Vauban et du célèbre Lion de pierre, ce grand parc urbain boisé offre un cadre idéal pour les jeux et la détente familiale avec sa roseraie ombragée.",
+    "short_description": "Espace arboré historique situé au pied de la citadelle.",
+    "gps_coordinates": "47.6394, 6.8622",
+    "distance_to_city_hall_km": 0.5
+  },
+  {
+    "name": "Jardin Massey",
+    "city": "Tarbes",
+    "has_playground": true,
+    "activities_5_7_years": "Paons en liberté, petit train sur rails, aires de grimpe closes.",
+    "opening_hours_summer": "08:00-20:00",
+    "opening_hours_winter": "08:00-17:30",
+    "description": "Classé Jardin Remarquable, ce magnifique parc à l'anglaise de 11 hectares a été légué par le botaniste Placide Massey. Il dispose d'un cloître médiéval, d'un lac, de canards et de serres anciennes.",
+    "short_description": "Superbe jardin à l'anglaise possédant un cloître historique.",
+    "gps_coordinates": "43.2391, 0.0782",
+    "distance_to_city_hall_km": 0.6
+  },
+  {
+    "name": "Parc bordelais",
+    "city": "Bordeaux",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de varappe, petits ponts d'exploration, toboggans.",
+    "opening_hours_summer": "07:00-21:00",
+    "opening_hours_winter": "07:00-18:30",
+    "description": "Conçu à la fin du XIXe siècle comme une forêt de 28 hectares au sein de l'agglomération, ce parc historique abrite de magnifiques chênes, un grand lac artificiel de canotage et des animaux de fermes.",
+    "short_description": "Grand parc boisé traditionnel avec espace zoologique local.",
+    "gps_coordinates": "44.8535, -0.6015",
+    "distance_to_city_hall_km": 2.2
+  },
+  {
+    "name": "Parc Saint-Pierre",
+    "city": "Calais",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux d'escalade en bois, mare aux canards, pistes de patinage.",
+    "opening_hours_summer": "07:30-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Situé juste face au majestueux Hôtel de Ville, ce grand parc classique réunit de vastes pelouses géométriques, un beau bassin d'agrément et le musée de la Mémoire de la Seconde Guerre mondiale.",
+    "short_description": "Parc classique central situé face au beffroi municipal.",
+    "gps_coordinates": "50.9521, 1.8564",
+    "distance_to_city_hall_km": 0.2
+  },
+  {
+    "name": "Jardin Vauban",
+    "city": "Lille",
+    "has_playground": true,
+    "activities_5_7_years": "Théâtre de marionnettes 'Le P'tit Jacques', pontons d'exploration.",
+    "opening_hours_summer": "07:30-21:00",
+    "opening_hours_winter": "07:30-19:00",
+    "description": "Classé monument historique, ce jardin paysager à l'anglaise a été créé en 1863. Il abrite une magnifique grotte artificielle avec cascade, de petits ruisseaux sinueux et de superbes collections de roses.",
+    "short_description": "Jardin à l'anglaise classé avec une splendide cascade de pierre.",
+    "gps_coordinates": "50.6342, 3.0485",
+    "distance_to_city_hall_km": 1.1
+  },
+  {
+    "name": "Parc Monceau",
+    "city": "Paris",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux closes, manège vintage, balades à poney les week-ends.",
+    "opening_hours_summer": "07:00-22:00",
+    "opening_hours_winter": "07:00-20:00",
+    "description": "Acheté par la ville au XIXe siècle, ce parc élégant de 8 hectares est entouré d'hôtels particuliers somptueux. Il intègre de fausses ruines antiques, une grande colonnade grecque et des arbres géants.",
+    "short_description": "Parc élégant orné d'une colonnade grecque et de folies anciennes.",
+    "gps_coordinates": "48.8796, 2.3089",
+    "distance_to_city_hall_km": 3.4
+  },
+  {
+    "name": "Parc de la Hotoie",
+    "city": "Amiens",
+    "has_playground": true,
+    "activities_5_7_years": "Visite du zoo attenant, structures de cordage, toboggans ouverts.",
+    "opening_hours_summer": "08:00-21:30",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Le plus ancien espace vert public d'Amiens s'étend sur une large plaine de 19 hectares. Traversé par un très long bassin d'eau rectiligne, il jouxte directement le parc zoologique municipal.",
+    "short_description": "Le plus ancien parc de la ville avec un long miroir d'eau.",
+    "gps_coordinates": "49.8964, 2.2782",
+    "distance_to_city_hall_km": 1.4
+  },
+  {
+    "name": "Parc de Frégeneuil",
+    "city": "Angoulême",
+    "has_playground": true,
+    "activities_5_7_years": "Grand toboggan, ponts suspendus, pistes pour petites trottinettes.",
+    "opening_hours_summer": "07:30-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Dominant le fleuve Charente depuis son promontoire boisé, ce parc paysager vallonné propose de vastes pelouses de détente, un agréable plan d'eau et une grande guinguette ouverte à la belle saison.",
+    "short_description": "Parc vallonné en terrasse surplombant le fleuve Charente.",
+    "gps_coordinates": "45.6514, 0.1422",
+    "distance_to_city_hall_km": 1.2
+  },
+  {
+    "name": "Parc du Jardin Public",
+    "city": "Cognac",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de jeux closes en bois, observation des paons et des cygnes.",
+    "opening_hours_summer": "08:00-20:30",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce parc singulier de 7 hectares combine deux styles : un tracé régulier devant l'hôtel de ville (un ancien hôtel particulier) et un paysage romantique à l'anglaise avec des grottes artificielles.",
+    "short_description": "Jardin mixte entourant la mairie avec des cascades artificielles.",
+    "gps_coordinates": "45.6964, -0.3278",
+    "distance_to_city_hall_km": 0.1
+  },
+  {
+    "name": "Parc du pré des Pêcheurs",
+    "city": "Antibes",
+    "has_playground": true,
+    "activities_5_7_years": "Jeux à bascule marins, structures de glisse ombragées par toiles.",
+    "opening_hours_summer": "07:00-23:00",
+    "opening_hours_winter": "07:00-20:00",
+    "description": "Espace urbain moderne situé aux portes de la vieille ville et face au port de plaisance. Conçu au-dessus d'un grand parking souterrain, il offre des îlots arborés frais et des fontaines d'eau au sol.",
+    "short_description": "Esplanade urbaine moderne végétalisée en bordure de port.",
+    "gps_coordinates": "43.5824, 7.1268",
+    "distance_to_city_hall_km": 0.3
+  },
+  {
+    "name": "Parc du Casino",
+    "city": "Aix-les-Bains",
+    "has_playground": true,
+    "activities_5_7_years": "Toboggans, labyrinthes de buissons bas, structures de grimpe.",
+    "opening_hours_summer": "24h/24",
+    "opening_hours_winter": "24h/24",
+    "description": "Ce parc urbain historique s'organise majestueusement devant la façade néo-classique du casino Grand Cercle. Planté de massifs floraux géométriques, il propose de larges allées d'ombre et de repos.",
+    "short_description": "Parc d'agrément classique orné de riches compositions florales.",
+    "gps_coordinates": "45.6892, 5.9124",
+    "distance_to_city_hall_km": 0.1
   },
   {
     "name": "Parc Saint-Mitre",
     "city": "Aix-en-Provence",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Marionnettes",
-      "Jeux en bois",
-      "Observation du bassin"
-    ],
-    "opening_hours_summer": "09:00 - 20:00",
-    "opening_hours_winter": "09:00 - 18:00",
-    "city_hall_message": null,
-    "description": "Un parc familial charmant à l'ouest d'Aix. Il abrite une belle pelouse, une magnifique serre de collection, un ruisseau romantique et un théâtre de marionnettes traditionnel très populaire en période estivale.",
-    "short_description": "Parc familial aixois abritant un joli ruisseau et une grande serre.",
-    "gps_coordinates": {
-      "latitude": 43.5314,
-      "longitude": 5.4294
-    },
-    "distance_to_city_hall_km": 1.8
+    "activities_5_7_years": "Théâtre de marionnettes en saison, grand bassin aux nénuphars.",
+    "opening_hours_summer": "07:30-20:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Ce domaine familial abrite une bastide provençale classique, un arboretum, une roseraie et une ancienne serre d'exposition. Le ruisseau d'agrément apporte une fraîcheur bienvenue lors de l'été.",
+    "short_description": "Bastide de Provence avec arboretum et ruisseau de fraîcheur.",
+    "gps_coordinates": "43.5328, 5.4294",
+    "distance_to_city_hall_km": 1.7
   },
   {
-    "name": "Parc de la Beaujoire (Roseraie)",
-    "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade au milieu des roses"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 47.2625,
-      "longitude": -1.5322
-    },
-    "distance_to_city_hall_km": 5.4
-  },
-  {
-    "name": "Square de la Bourse",
-    "city": "Bordeaux",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8414,
-      "longitude": -0.5703
-    },
-    "distance_to_city_hall_km": 0.4
-  },
-  {
-    "name": "Parc de l'Orangerie (Roseraie)",
-    "city": "Strasbourg",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.5914,
-      "longitude": 7.7767
-    },
-    "distance_to_city_hall_km": 2.7
-  },
-  {
-    "name": "Square Marc-Sangnier",
-    "city": "Rennes",
+    "name": "Parc Jourdan",
+    "city": "Aix-en-Provence",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux à ressort",
-      "Toboggan miniature"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1189,
-      "longitude": -1.6514
-    },
-    "distance_to_city_hall_km": 1.9
-  },
-  {
-    "name": "Jardin des Curiosités",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Découverte des chaises gravées"
-    ],
-    "opening_hours_summer": "08:00 - 22:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": "Offert par la ville de Montréal, ce petit espace secret perché au bout de la colline de Saint-Just propose un ensemble de petites sculptures insolites en forme de chaises et offre l'un des panoramas les plus dégagés sur le sud lyonnais.",
-    "short_description": "Petit jardin secret et insolite offrant une vue plongeante sur Lyon.",
-    "gps_coordinates": {
-      "latitude": 45.7544,
-      "longitude": 4.8217
-    },
-    "distance_to_city_hall_km": 1.6
-  },
-  {
-    "name": "Parc de Belleville",
-    "city": "Paris",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Immense toboggan incliné",
-      "Ateliers à la maison de l'air",
-      "Parcours d'équilibre"
-    ],
-    "opening_hours_summer": "08:00 - 21:30",
-    "opening_hours_winter": "08:00 - 17:45",
-    "city_hall_message": null,
-    "description": "Perché sur la colline de Belleville, ce parc à flanc de coteau possède une cascade en terrasses spectaculaire et une rampe de jeu monumentale en bois très prisée des enfants téméraires. La vue panoramique sur Paris y est extraordinaire.",
-    "short_description": "Parc en terrasses à flanc de colline doté d'une aire de jeux géante.",
-    "gps_coordinates": {
-      "latitude": 48.8711,
-      "longitude": 2.3847
-    },
-    "distance_to_city_hall_km": 2.8
-  },
-  {
-    "name": "Parc de l'Hautil",
-    "city": "Triello",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Exploration forestière"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 49.0111,
-      "longitude": 2.0144
-    },
-    "distance_to_city_hall_km": 25.0
-  },
-  {
-    "name": "Jardin des Plantes (Serres)",
-    "city": "Paris",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Exploration tropicale"
-    ],
-    "opening_hours_summer": "07:30 - 20:00",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8428,
-      "longitude": 2.3589
-    },
-    "distance_to_city_hall_km": 2.3
-  },
-  {
-    "name": "Parc Floral de Paris",
-    "city": "Paris",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Grands toboggans de 6m",
-      "Labyrinthe mystérieux",
-      "Jeux de varappe"
-    ],
-    "opening_hours_summer": "09:30 - 20:00",
-    "opening_hours_winter": "09:30 - 17:00",
-    "city_hall_message": "L'entrée devient payante durant les festivals de musique d'été (juillet-août).",
-    "description": "Veritable musée végétal au cœur du bois de Vincennes, ce parc de 28 hectares est renommé mondialement pour ses collections horticoles extraordinaires et ses infrastructures de jeux géantes uniques, parfaitement abritées sous de grands pins.",
-    "short_description": "Splendide parc floral et ludique niché au cœur du bois de Vincennes.",
-    "gps_coordinates": {
-      "latitude": 48.8389,
-      "longitude": 2.4439
-    },
-    "distance_to_city_hall_km": 6.8
-  },
-  {
-    "name": "Parc des Allières",
-    "city": "Bron",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Course à pied"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7289,
-      "longitude": 4.8944
-    },
-    "distance_to_city_hall_km": 7.0
-  },
-  {
-    "name": "Jardin de la Valmer",
-    "city": "Marseille",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Balançoires",
-      "Observation de la mer"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": "Surplombant fièrement la célèbre Corniche, ce jardin d'acclimatation en terrasses abrite une superbe demeure du XIXe siècle. Il offre une collection spectaculaire de plantes tropicales et d'essences exotiques, face aux vagues.",
-    "short_description": "Oasis exotique suspendue en terrasses au-dessus de la Corniche.",
-    "gps_coordinates": {
-      "latitude": 43.2778,
-      "longitude": 5.3528
-    },
-    "distance_to_city_hall_km": 3.4
-  },
-  {
-    "name": "Parc du Cens",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Observation des grenouilles",
-      "Parcours nature",
-      "Passerelles en bois"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": "S'étirant le long de la paisible rivière du Cens, ce parc linéaire offre une véritable coulée verte sauvage à travers le nord de Nantes. C'est l'adresse idéale pour une rando-balade sous les frondaisons au son de l'eau vive.",
-    "short_description": "Longue et sauvage coulée verte nantaise en lisière de rivière.",
-    "gps_coordinates": {
-      "latitude": 47.2494,
-      "longitude": -1.5647
-    },
-    "distance_to_city_hall_km": 4.1
-  },
-  {
-    "name": "Parc de René Canivenc",
-    "city": "Gradignan",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Visite du parc animalier",
-      "Découverte des daims",
-      "Jeux extérieurs"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": "Traversé par l'Eau Bourde, ce parc boisé remarquable abrite un magnifique espace animalier gratuit regroupant de grands mammifères (daims, cerfs), une volière et une mini-ferme. Un coin de nature magique pour les plus jeunes.",
-    "short_description": "Superbe parc boisé doté d'une grande réserve animalière gratuite.",
-    "gps_coordinates": {
-      "latitude": 44.7742,
-      "longitude": -0.6189
-    },
-    "distance_to_city_hall_km": 8.8
-  },
-  {
-    "name": "Parc de l'Orangerie (Étang)",
-    "city": "Strasbourg",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Barques"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.5911,
-      "longitude": 7.7739
-    },
-    "distance_to_city_hall_km": 2.4
-  },
-  {
-    "name": "Square de Kergus",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1094,
-      "longitude": -1.6811
-    },
+    "activities_5_7_years": "Aires de glisse, jeux de cordes closes, pistes de trottinettes.",
+    "opening_hours_summer": "07:30-20:30",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Le plus grand parc du centre de la ville s'étend en terrasses sur 4 hectares. Dessiné dans un style classique français au bas et anglais au sommet, il possède un grand miroir d'eau linéaire.",
+    "short_description": "Grand parc urbain aménagé en terrasses avec un miroir d'eau.",
+    "gps_coordinates": "43.5222, 5.4496",
     "distance_to_city_hall_km": 0.6
   },
   {
-    "name": "Jardin des Chartreux",
-    "city": "Lyon",
+    "name": "Jardin de la Perrine",
+    "city": "Laval",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Jeux de cordes",
-      "Glissades sur toboggan"
-    ],
-    "opening_hours_summer": "06:00 - 22:00",
-    "opening_hours_winter": "07:00 - 19:00",
-    "city_hall_message": null,
-    "description": "Situé sur les pentes de la Croix-Rousse, ce jardin escarpé offre des terrasses arborées reposantes et une magnifique vue de profil sur la Saône et la colline de Fourvière. Ses aires de jeux sont calmes et abritées du vent.",
-    "short_description": "Jardin escarpé sur les pentes offrant de superbes panoramas lyonnais.",
-    "gps_coordinates": {
-      "latitude": 45.7708,
-      "longitude": 4.8256
-    },
-    "distance_to_city_hall_km": 1.2
-  },
-  {
-    "name": "Parc des Buttes-Chaumont (Lac)",
-    "city": "Paris",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation des oiseaux d'eau"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8803,
-      "longitude": 2.3819
-    },
-    "distance_to_city_hall_km": 3.3
-  },
-  {
-    "name": "Parc François Mitterrand",
-    "city": "Mérignac",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Grandes structures en bois",
-      "Roller en allée",
-      "Jeux sur l'herbe"
-    ],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": "Le poumon vert central de Mérignac. Entièrement réaménagé, il s'étend autour d'un grand plan d'eau et propose d'immenses structures de jeux d'agilité en bois et des cheminements piétons parfaits pour les enfants.",
-    "short_description": "Vaste parc central urbain à Mérignac avec de superbes espaces de jeux.",
-    "gps_coordinates": {
-      "latitude": 44.8419,
-      "longitude": -0.6489
-    },
-    "distance_to_city_hall_km": 0.2
-  },
-  {
-    "name": "Parc Floral de la Beaujoire (Iris)",
-    "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 47.2631,
-      "longitude": -1.5311
-    },
-    "distance_to_city_hall_km": 5.4
-  },
-  {
-    "name": "Square des Cordeliers",
-    "city": "Bordeaux",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8364,
-      "longitude": -0.5744
-    },
-    "distance_to_city_hall_km": 0.5
-  },
-  {
-    "name": "Parc des Contades (Allées Hautes)",
-    "city": "Strasbourg",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.5901,
-      "longitude": 7.7611
-    },
-    "distance_to_city_hall_km": 1.2
-  },
-  {
-    "name": "Square de la Touche",
-    "city": "Rennes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Balançoire à bascule"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1175,
-      "longitude": -1.6956
-    },
-    "distance_to_city_hall_km": 1.8
-  },
-  {
-    "name": "Parc de l'Hôtel de Ville",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "08:00 - 19:00",
-    "opening_hours_winter": "08:00 - 17:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7675,
-      "longitude": 4.8356
-    },
-    "distance_to_city_hall_km": 0.1
-  },
-  {
-    "name": "Parc Montsouris (Lac Supérieur)",
-    "city": "Paris",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation des cygnes"
-    ],
-    "opening_hours_summer": "07:00 - 21:30",
-    "opening_hours_winter": "07:00 - 17:45",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8231,
-      "longitude": 2.3394
-    },
-    "distance_to_city_hall_km": 4.1
-  },
-  {
-    "name": "Parc de la Feyssine",
-    "city": "Villeurbanne",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Vélo tout-terrain",
-      "Exploration des sentiers",
-      "Ramassage de galets"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": "Espace naturel préservé, baignade strictement interdite dans le Rhône.",
-    "description": "Une immense forêt alluviale de 45 hectares préservée en bordure directe du Rhône. Sans aucun aménagement sophistiqué, ce parc volontairement sauvage offre un vrai sentiment de liberté et d'aventure sauvage aux portes de la ville.",
-    "short_description": "Forêt alluviale sauvage de 45 hectares en bordure directe du Rhône.",
-    "gps_coordinates": {
-      "latitude": 45.7828,
-      "longitude": 4.8736
-    },
-    "distance_to_city_hall_km": 4.8
-  },
-  {
-    "name": "Jardin des Plantes",
-    "city": "Nantes",
-    "has_playground": true,
-    "activities_5_7_years": [
-      "Fontaines magiques",
-      "Observation des œuvres géantes d'art",
-      "Pataugeoire en été"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 17:30",
-    "city_hall_message": null,
-    "description": "L'un des quatre grands jardins botaniques de France. Ce parc d'exception en plein centre-ville fascine par ses arbres d'ornement extraordinaires, ses serres tropicales anciennes et ses sculptures végétales humoristiques monumentales.",
-    "short_description": "Splendide jardin botanique d'exception aux installations ludiques.",
-    "gps_coordinates": {
-      "latitude": 47.2194,
-      "longitude": -1.5417
-    },
-    "distance_to_city_hall_km": 1.1
-  },
-  {
-    "name": "Parc de la Maison Blanche (Bois)",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2622,
-      "longitude": 5.4051
-    },
-    "distance_to_city_hall_km": 5.1
-  },
-  {
-    "name": "Parc de Procé (Petite Vallée)",
-    "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Marche au bord du ruisseau"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 47.2222,
-      "longitude": -1.5806
-    },
-    "distance_to_city_hall_km": 2.5
-  },
-  {
-    "name": "Parc Bordelais (Clairières)",
-    "city": "Bordeaux",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Jeux sur herbe"
-    ],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "07:00 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8548,
-      "longitude": -0.6022
-    },
-    "distance_to_city_hall_km": 2.4
-  },
-  {
-    "name": "Parc de la Citadelle (Fossés)",
-    "city": "Strasbourg",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation des canards"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.5769,
-      "longitude": 7.7725
-    },
-    "distance_to_city_hall_km": 2.1
-  },
-  {
-    "name": "Parc des Gayeulles (Zone Étangs)",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation des libellules"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1372,
-      "longitude": -1.6431
-    },
-    "distance_to_city_hall_km": 3.7
-  },
-  {
-    "name": "Square de la Motte (Bas)",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1133,
-      "longitude": -1.6742
-    },
+    "activities_5_7_years": "Enclos des biches, manège traditionnel, structures de glisse.",
+    "opening_hours_summer": "07:00-21:00",
+    "opening_hours_winter": "08:00-18:30",
+    "description": "Dominant la Mayenne, ce magnifique parc de 4 hectares abrite la tombe du peintre douanier Rousseau. Il rassemble une riche roseraie, un espace animalier avec chèvres et biches, et un grand bassin.",
+    "short_description": "Jardin perché sur la rivière avec roseraie et enclos de biches.",
+    "gps_coordinates": "48.0664, -0.7731",
     "distance_to_city_hall_km": 0.4
   },
   {
-    "name": "Bois de Boulogne (Lacs)",
-    "city": "Paris",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8611,
-      "longitude": 2.2511
-    },
-    "distance_to_city_hall_km": 6.9
-  },
-  {
-    "name": "Parc de Parilly (Boisé)",
-    "city": "Bron",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Randonnée sous bois"
-    ],
-    "opening_hours_summer": "07:00 - 22:00",
-    "opening_hours_winter": "07:00 - 20:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7183,
-      "longitude": 4.8894
-    },
-    "distance_to_city_hall_km": 6.8
-  },
-  {
-    "name": "Parc Saint-Mitre (Oliveraie)",
-    "city": "Aix-en-Provence",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Détente"
-    ],
-    "opening_hours_summer": "09:00 - 20:00",
-    "opening_hours_winter": "09:00 - 18:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.5319,
-      "longitude": 5.4283
-    },
-    "distance_to_city_hall_km": 1.9
-  },
-  {
-    "name": "Jardin des Plantes (Allée des Serres)",
+    "name": "Parc du Grand Blottereau",
     "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 17:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 47.2197,
-      "longitude": -1.5422
-    },
-    "distance_to_city_hall_km": 1.2
-  },
-  {
-    "name": "Parc des Hauteurs (Passerelle)",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "08:00 - 22:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7648,
-      "longitude": 4.8225
-    },
-    "distance_to_city_hall_km": 1.5
-  },
-  {
-    "name": "Parc du 26e Centenaire (Belvédère)",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Montée des marches panoramiques"
-    ],
-    "opening_hours_summer": "08:00 - 21:00",
-    "opening_hours_winter": "08:00 - 19:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2811,
-      "longitude": 5.3951
-    },
-    "distance_to_city_hall_km": 2.8
-  },
-  {
-    "name": "Parc de la Crapaudine (Marais)",
-    "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Découverte des plantes"
-    ],
-    "opening_hours_summer": "08:30 - 20:00",
-    "opening_hours_winter": "08:30 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 47.1922,
-      "longitude": -1.5339
-    },
-    "distance_to_city_hall_km": 3.3
-  },
-  {
-    "name": "Parc Rivière (Maison Jardinier)",
-    "city": "Bordeaux",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_hours_winter": "07:00 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8592,
-      "longitude": -0.5839
-    },
-    "distance_to_city_hall_km": 1.8
-  },
-  {
-    "name": "Parc de Maurepas (Allée des Pins)",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Promenade"
-    ],
-    "opening_hours_summer": "07:45 - 20:15",
-    "opening_hours_winter": "07:45 - 18:15",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1261,
-      "longitude": -1.6578
-    },
-    "distance_to_city_hall_km": 2.2
-  },
-  {
-    "name": "Parc de Belleville (Belvédère)",
-    "city": "Paris",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation du paysage"
-    ],
-    "opening_hours_summer": "08:00 - 21:30",
-    "opening_hours_winter": "08:00 - 17:45",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8719,
-      "longitude": 2.3853
-    },
-    "distance_to_city_hall_km": 2.9
-  },
-  {
-    "name": "Parc du Cens (Passerelles)",
-    "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 47.2501,
-      "longitude": -1.5639
-    },
-    "distance_to_city_hall_km": 4.3
-  },
-  {
-    "name": "Parc René Canivenc (Volière)",
-    "city": "Gradignan",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation des oiseaux"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.7745,
-      "longitude": -0.6178
-    },
-    "distance_to_city_hall_km": 8.9
-  },
-  {
-    "name": "Parc de la Feyssine (Berges)",
-    "city": "Villeurbanne",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade galets"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7836,
-      "longitude": 4.8728
-    },
-    "distance_to_city_hall_km": 5.0
-  },
-  {
-    "name": "Jardin de la Valmer (Terrasses)",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2781,
-      "longitude": 5.3533
-    },
-    "distance_to_city_hall_km": 3.5
-  },
-  {
-    "name": "Parc de l'Hautil (Sentier)",
-    "city": "Triello",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Marche"
-    ],
-    "opening_hours_summer": "Ouvert 24h/24, 7j/7",
-    "opening_hours_winter": "Ouvert 24h/24, 7j/7",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 49.0119,
-      "longitude": 2.0151
-    },
-    "distance_to_city_hall_km": 25.2
-  },
-  {
-    "name": "Parc de la Tête d'Or (Roseraie)",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Sentir les fleurs"
-    ],
-    "opening_hours_summer": "06:30 - 22:30",
-    "opening_hours_winter": "06:30 - 20:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7781,
-      "longitude": 4.8561
-    },
-    "distance_to_city_hall_km": 2.2
-  },
-  {
-    "name": "Jardin du Luxembourg (Bassin)",
-    "city": "Paris",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Bateaux"
-    ],
-    "opening_hours_summer": "07:30 - 21:30",
-    "opening_hours_winter": "08:15 - 17:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.8468,
-      "longitude": 2.3378
-    },
-    "distance_to_city_hall_km": 1.6
-  },
-  {
-    "name": "Parc Borély (Lac)",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Barques"
-    ],
-    "opening_hours_summer": "06:00 - 21:00",
-    "opening_hours_winter": "06:00 - 1e9:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2589,
-      "longitude": 5.3822
-    },
-    "distance_to_city_hall_km": 4.3
-  },
-  {
-    "name": "Jardin Public (Rivière)",
-    "city": "Bordeaux",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Observation"
-    ],
-    "opening_hours_summer": "07:00 - 21:00",
-    "opening_h ours_winter": "07:00 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8488,
-      "longitude": -0.5794
-    },
-    "distance_to_city_hall_km": 0.9
-  },
-  {
-    "name": "Parc du Thabor (Enclos)",
-    "city": "Rennes",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "07:30 - 20:30",
-    "opening_hours_winter": "07:30 - 18:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 48.1149,
-      "longitude": -1.6694
-    },
-    "distance_to_city_hall_km": 1.0
-  },
-  {
-    "name": "Parc Blandan (Remparts)",
-    "city": "Lyon",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Balade historique"
-    ],
-    "opening_hours_summer": "06:30 - 22:30",
-    "opening_hours_winter": "06:30 - 20:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 45.7431,
-      "longitude": 4.8548
-    },
-    "distance_to_city_hall_km": 2.9
-  },
-  {
-    "name": "Parc Pastré (Pinède)",
-    "city": "Marseille",
-    "has_playground": false,
-    "activities_5_7_years": [
-      "Petite marche sous les pins"
-    ],
-    "opening_hours_summer": "08:00 - 20:00",
-    "opening_hours_winter": "08:00 - 18:00",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 43.2294,
-      "longitude": 5.3741
-    },
-    "distance_to_city_hall_km": 8.0
-  },
-  {
-    "name": "Parc du Grand Blottereau (Serres)",
-    "city": "Nantes",
-    "has_playground": false,
-    "activities_5_7_years": [],
-    "opening_hours_summer": "08:00 - 19:30",
-    "opening_hours_winter": "08:00 - 17:30",
-    "city_hall_message": null,
-    "description": null,
-    "short_description": null,
-    "gps_coordinates": {
-      "latitude": 44.8328,
-      "longitude": -0.6548
-    },
-    "distance_to_city_hall_km": 1.5
-  },
-  {
-    "name": "La Ferme aux Oies",
-    "city": "Marcq-en-Barœul",
     "has_playground": true,
-    "activities_5_7_years": [
-      "Observation des animaux de la ferme (oies, paons, ânes, moutons)",
-      "Aire de jeux aquatiques (en période estivale)",
-      "Structures de jeux et tyrolienne",
-      "Jeux dans le sable"
-    ],
-    "opening_hours_summer": "Ouvert tous les jours de 10h à 20h (du 1er mars au 31 octobre)",
-    "opening_hours_winter": "Ouvert tous les jours de 10h à 18h (du 1er novembre à fin février)",
-    "city_hall_message": "Gratuit pour les Marcquois sur présentation d'un QR code. Payant pour les non-Marcquois certains jours entre le 1er avril et le 30 septembre (week-ends, mercredis, jours fériés et vacances scolaires).",
-    "description": "Un véritable écrin de nature et de loisirs au cœur de la ville ! La Ferme aux Oies est le parc familial par excellence. Les enfants s'émerveillent devant les enclos des animaux avant de se dépenser sans compter sur les nombreuses structures de jeux et la tyrolienne. L'été, l'aire de jeux aquatiques devient le point de ralliement incontournable pour se rafraîchir. Avec ses grandes pelouses pour pique-niquer et son estaminet sur place, c'est la sortie parfaite pour se dépenser au grand air.",
-    "short_description": "Un vaste parc familial combinant animaux de la ferme, structures ludiques.",
-    "gps_coordinates": {
-      "latitude": 50.695321,
-      "longitude": 3.104012
-    },
-    "distance_to_city_hall_km": 2.3
+    "activities_5_7_years": "Parcours accrobranche junior, toboggan géant, enclos à chèvres.",
+    "opening_hours_summer": "08:30-20:00",
+    "opening_hours_winter": "08:30-18:30",
+    "description": "Plus grand parc nantais avec ses 37 hectares. Il entoure un splendide château du XVIIIe siècle et se divise en plusieurs jardins thématiques du monde, dont une colline méditerranéenne riche.",
+    "short_description": "Immense parc thématique mondial avec un château historique.",
+    "gps_coordinates": "47.2275, -1.5082",
+    "distance_to_city_hall_km": 4.1
+  },
+  {
+    "name": "Jardin public",
+    "city": "Saint-Omer",
+    "has_playground": true,
+    "activities_5_7_years": "Aires de varappe forestières, observation des biches, manège.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Magnifique parc paysager de 22 hectares dessiné à la fin du XIXe siècle à l'intérieur des anciennes douves fortifiées de Vauban. Il conserve un arboretum d'arbres rares et un bel étang.",
+    "short_description": "Parc dessiné au cœur des anciens remparts fortifiés de la ville.",
+    "gps_coordinates": "50.7485, 2.2532",
+    "distance_to_city_hall_km": 0.5
+  },
+  {
+    "name": "Parc de l'Hôtel de Ville",
+    "city": "Châlons-en-Champagne",
+    "has_playground": true,
+    "activities_5_7_years": "Toboggans, cabanes en bois miniatures, parcours de petits pas.",
+    "opening_hours_summer": "07:30-20:30",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Ce petit parc classique soigné entoure le bâtiment historique de la mairie. Ses parterres de fleurs géométriques et ses rangées d'arbres taillés offrent un cadre de repos intime et frais.",
+    "short_description": "Jardin municipal traditionnel très calme et richement fleuri.",
+    "gps_coordinates": "48.9564, 4.3642",
+    "distance_to_city_hall_km": 0.1
+  },
+  {
+    "name": "Parc de la Cure d'Air",
+    "city": "Nancy",
+    "has_playground": true,
+    "activities_5_7_years": "Structures d'escalade en bois, jeux d'équilibre adaptés.",
+    "opening_hours_summer": "08:00-21:00",
+    "opening_hours_winter": "08:00-18:00",
+    "description": "Perché à 300 mètres d'altitude sur une colline à l'ouest de la ville, cet ancien lieu de repos du début du XXe siècle offre une vue plongeante et dégagée sur l'agglomération et ses clochers.",
+    "short_description": "Parc de colline panoramique planté de vergers de mirabelliers.",
+    "gps_coordinates": "48.6945, 6.1585",
+    "distance_to_city_hall_km": 1.4
+  },
+  {
+    "name": "Jardin des plantes de Montpellier",
+    "city": "Montpellier",
+    "has_playground": false,
+    "activities_5_7_years": "Parcours de découverte des arbres creux, observation des tortues.",
+    "opening_hours_summer": "12:00-20:00",
+    "opening_hours_winter": "12:00-18:00",
+    "description": "Créé en 1593 sur ordre de Henri IV pour l'étude des plantes de médecine, ce site géré par l'Université est le plus ancien jardin botanique de France. Il protège de superbes serres anciennes.",
+    "short_description": "Le plus ancien jardin de médecine et de botanique historique.",
+    "gps_coordinates": "43.6135, 3.8712",
+    "distance_to_city_hall_km": 0.6
   }
 ]
