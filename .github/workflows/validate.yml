@@ -8,7 +8,8 @@ jobs:
       - name: Installer jq
         run: sudo apt-get install -y jq
       - name: JSON syntaxiquement valide
-        run: jq empty parcs.json
+        run: |
+          jq empty parcs.json || (echo "❌ Erreur de syntaxe détectée !" && jq -c 'path(..)' parcs.json 2>&1)
       - name: Aucune description ne dépasse 80 caractères
         run: |
           count=$(jq '[.[] | select(.short_description | length > 80)] | length' parcs.json)
