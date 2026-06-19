@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>OnFéKoi - les parcs</title>
+</head>
+<body>
+<h1>OnFéKoi - les parcs de la métropole lilloise</h1>
+<div id="carte" style="height: 600px;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  const carte = L.map('carte').setView([50.6292, 3.1452], 12);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+  }).addTo(carte);
+
+  fetch('parcs.json')
+    .then(r => r.json())
+    .then(parcs => {
+      console.log ("toto")
+      for (const p of parcs) {
+        console.log(p)
+        if (p.gps_coordinates.latitude && p.gps_coordinates.longitude) {
+          L.marker([p.gps_coordinates.latitude, p.gps_coordinates.longitude])
+            .addTo(carte)
+            .bindPopup('<b>' + p.name + '</b><br>' + (p.short_description || ''));
+        }
+      }
+    });
+</script>
