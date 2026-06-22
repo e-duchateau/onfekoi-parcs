@@ -1,49 +1,56 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <title>OnFéKoi - les parcs</title>
 </head>
+
 <body>
-<h1>OnFéKoi - les parcs de la métropole lilloise</h1>
-<label>
-  <input type="checkbox" id="filtre-aire-jeux">
-  Uniquement avec aire de jeux
-</label>
-<span id="compteur"></span>
-<div id="carte" style="height: 600px;"></div>
+  <h1>On Fait Quoi ? - les meilleurs parcs des Hauts de Frances</h1>
+  <label>
+    <input type="checkbox" id="filtre-aire-jeux">
+    Uniquement avec aire de jeux
+  </label>
+  <span id="compteur"></span>
+  <div id="carte" style="height: 600px;"></div>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    const carte = L.map('carte').setView([50.6292, 3.1452], 12);
 
-<script>
-let parcsCharges = [];
-let markers = [];
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap'
+    }).addTo(carte);
+    let parcsCharges = [];
+    let markers = [];
 
-function afficherMarkers() {
-  for (const m of markers) carte.removeLayer(m);
-  markers = [];
-  const filtre = document.getElementById('filtre-aire-jeux').checked;
-  const visibles = filtre ? parcsCharges.filter(p => p.has_playground) : parcsCharges;
-  for (const p of visibles) {
-    if (p.latitude && p.longitude) {
-      const m = L.marker([p.latitude, p.longitude])
-        .addTo(carte)
-        .bindPopup('<b>' + p.name + '</b><br>' + (p.short_description || ''));
-      markers.push(m);
+    function afficherMarkers() {
+      for (const m of markers) carte.removeLayer(m);
+      markers = [];
+      const filtre = document.getElementById('filtre-aire-jeux').checked;
+      const visibles = filtre ? parcsCharges.filter(p => p.has_playground) : parcsCharges;
+      for (const p of visibles) {
+        let coord=p.gps_coordinates
+        if (coord.latitude && coord.longitude) {
+          const m = L.marker([coord.latitude, coord.longitude])
+            .addTo(carte)
+            .bindPopup('<b>' + p.name + '</b><br>' + (p.short_description || ''));
+          markers.push(m);
+        }
+      }
+      document.getElementById('compteur').textContent = ' (' + visibles.length + ' parcs affichés)';
     }
-  }
-  document.getElementById('compteur').textContent = ' (' + visibles.length + ' parcs affichés)';
-}
 
-fetch('parcs.json')
-  .then(r => r.json())
-  .then(parcs => { parcsCharges = parcs; afficherMarkers(); });
 
-document.getElementById('filtre-aire-jeux').addEventListener('change', afficherMarkers);
-        
-      
-;
-</script>
+    fetch('parcs.json')
+      .then(r => r.json())
+      .then(parcs => { parcsCharges = parcs; afficherMarkers(); });
+
+    document.getElementById('filtre-aire-jeux').addEventListener('change', afficherMarkers);
+  </script>
+
 </body>
+
 </html>
