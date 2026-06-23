@@ -3,54 +3,274 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OnFéKoi - les parcs</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f9fbf9;
+      color: #333;
+    }
+
+    /* --- Layout Principal en Flexbox (Liste à gauche, Carte à droite) --- */
+    .main-layout {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+
+    /* --- Barre latérale gauche --- */
+    .sidebar {
+      width: 480px;
+      min-width: 380px;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      border-right: 1px solid #e2ece2;
+      box-shadow: 4px 0 15px rgba(0, 0, 0, 0.05);
+      z-index: 10;
+    }
+
+    /* En-tête vert */
+    .header {
+      background-color: #2d5a1e;
+      color: white;
+      padding: 25px 20px;
+    }
+
+    .header h1 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .header p {
+      color: #a3c997;
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+
+    /* Zone de filtre */
+    .filter-zone {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 15px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .filter-zone input {
+      cursor: pointer;
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Barre intermédiaire du compteur */
+    .results-bar {
+      background-color: #f1f8f0;
+      padding: 12px 20px;
+      color: #4a7c39;
+      font-weight: bold;
+      font-size: 14px;
+      border-bottom: 1px solid #e2ece2;
+    }
+
+    /* Liste déroulante des parcs */
+    .cards-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    /* --- Composant Carte (Park Card) --- */
+    .card {
+      border: 1px solid #e6efe5;
+      border-radius: 12px;
+      padding: 16px;
+      background: #ffffff;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border-color: #bcd6ba;
+    }
+
+    .card-title {
+      font-size: 16px;
+      color: #111;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .card-description {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+
+    /* Badges d'activités */
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      background-color: #f0f7ef;
+      color: #497740;
+      border: 1px solid #dbead7;
+      padding: 3px 8px;
+      border-radius: 15px;
+      font-size: 11px;
+    }
+
+    /* --- Zone de la Carte (prend tout le reste) --- */
+    #carte {
+      flex: 1;
+      height: 100%;
+    }
+
+    /* Responsive : Sur mobile, on empile verticalement */
+    @media (max-width: 768px) {
+      .main-layout {
+        flex-direction: column;
+      }
+      .sidebar {
+        width: 100%;
+        height: 45vh;
+      }
+      #carte {
+        height: 55vh;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>On Fait Quoi ? - les meilleurs parcs des Hauts de Frances</h1>
-  <label>
-    <input type="checkbox" id="filtre-aire-jeux">
-    Uniquement avec aire de jeux
-  </label>
-  <span id="compteur"></span>
-  <div id="carte" style="height: 600px;"></div>
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <div class="main-layout">
+    
+    <div class="sidebar">
+      <div class="header">
+        <h1>🌳 OnFéKoi - Parcs</h1>
+        <p>Les meilleurs parcs des Hauts-de-France</p>
+        
+        <label class="filter-zone">
+          <input type="checkbox" id="filtre-aire-jeux">
+          Uniquement avec aire de jeux
+        </label>
+      </div>
+
+      <div class="results-bar">
+        <span id="compteur">0 parcs affichés</span>
+      </div>
+
+      <div class="cards-list" id="liste-parcs">
+        </div>
+    </div>
+
+    <div id="carte"></div>
+
+  </div>
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  
   <script>
+    // Initialisation de la carte Leaflet
     const carte = L.map('carte').setView([50.6292, 3.1452], 12);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap'
     }).addTo(carte);
+
     let parcsCharges = [];
     let markers = [];
 
-    function afficherMarkers() {
+    // Fonction pour centrer la carte sur un parc au clic dans la liste
+    function zoomSurParc(lat, lng) {
+      carte.setView([lat, lng], 15);
+    }
+
+    function afficherDonnees() {
+      // 1. Nettoyage des anciens marqueurs sur la carte
       for (const m of markers) carte.removeLayer(m);
       markers = [];
+
+      // 2. Nettoyage de l'ancienne liste HTML
+      const listeConteneur = document.getElementById('liste-parcs');
+      listeConteneur.innerHTML = '';
+
+      // 3. Filtrage des données
       const filtre = document.getElementById('filtre-aire-jeux').checked;
       const visibles = filtre ? parcsCharges.filter(p => p.has_playground) : parcsCharges;
+
+      // 4. Génération des marqueurs ET de la liste HTML
       for (const p of visibles) {
-        let coord=p.gps_coordinates
-        if (coord.latitude && coord.longitude) {
+        let coord = p.gps_coordinates;
+        if (coord && coord.latitude && coord.longitude) {
+          
+          // Ajout du marqueur sur la carte
           const m = L.marker([coord.latitude, coord.longitude])
             .addTo(carte)
             .bindPopup('<b>' + p.name + '</b><br>' + (p.short_description || ''));
           markers.push(m);
+
+          // Création de la carte HTML pour la liste de gauche
+          const cardHtml = document.createElement('div');
+          cardHtml.className = 'card';
+          // Événement au clic pour recentrer la carte Leaflet
+          cardHtml.onclick = () => zoomSurParc(coord.latitude, coord.longitude);
+
+          // Contenu dynamique de la carte
+          let tags = '';
+          if (p.has_playground) {
+            tags = `<div class="tags-container"><span class="tag">Aire de jeux</span></div>`;
+          }
+
+          cardHtml.innerHTML = `
+            <div class="card-title">${p.name}</div>
+            <div class="card-description">${p.short_description || 'Aucune description disponible.'}</div>
+            ${tags}
+          `;
+
+          listeConteneur.appendChild(cardHtml);
         }
       }
-      document.getElementById('compteur').textContent = ' (' + visibles.length + ' parcs affichés)';
+
+      // Mise à jour du compteur
+      document.getElementById('compteur').textContent = visibles.length + ' parc(s) trouvé(s)';
     }
 
-
+    // Chargement du fichier JSON
     fetch('parcs.json')
       .then(r => r.json())
-      .then(parcs => { parcsCharges = parcs; afficherMarkers(); });
+      .then(parcs => { 
+        parcsCharges = parcs; 
+        afficherDonnees(); 
+      })
+      .catch(err => console.error("Erreur de chargement du JSON :", err));
 
-    document.getElementById('filtre-aire-jeux').addEventListener('change', afficherMarkers);
+    // Écouteur sur la checkbox de filtrage
+    document.getElementById('filtre-aire-jeux').addEventListener('change', afficherDonnees);
   </script>
 
 </body>
-
 </html>
