@@ -20,7 +20,7 @@
       color: #333;
     }
 
-    /* --- Layout Principal en Flexbox (Liste à gauche, Carte à droite) --- */
+    /* --- Structure principale --- */
     .main-layout {
       display: flex;
       height: 100vh;
@@ -40,7 +40,6 @@
       z-index: 10;
     }
 
-    /* En-tête vert */
     .header {
       background-color: #2d5a1e;
       color: white;
@@ -58,7 +57,6 @@
       margin-bottom: 15px;
     }
 
-    /* Zone de filtre */
     .filter-zone {
       background-color: rgba(255, 255, 255, 0.1);
       padding: 10px 15px;
@@ -76,7 +74,6 @@
       height: 16px;
     }
 
-    /* Barre intermédiaire du compteur */
     .results-bar {
       background-color: #f1f8f0;
       padding: 12px 20px;
@@ -86,7 +83,6 @@
       border-bottom: 1px solid #e2ece2;
     }
 
-    /* Liste déroulante des parcs */
     .cards-list {
       flex: 1;
       overflow-y: auto;
@@ -96,41 +92,71 @@
       gap: 15px;
     }
 
-    /* --- Composant Carte (Park Card) --- */
+    /* --- Style des cartes de parcs --- */
     .card {
       border: 1px solid #e6efe5;
       border-radius: 12px;
       padding: 16px;
       background: #ffffff;
       cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      transition: box-shadow 0.2s, border-color 0.2s;
     }
 
     .card:hover {
-      transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       border-color: #bcd6ba;
+    }
+
+    .card.active {
+      border-color: #2d5a1e;
+      background-color: #fafdfa;
     }
 
     .card-title {
       font-size: 16px;
       color: #111;
       font-weight: 600;
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
 
-    .card-description {
+    .card-short-desc {
       font-size: 13px;
       color: #666;
-      margin-bottom: 12px;
+      margin-bottom: 6px;
       line-height: 1.4;
     }
 
-    /* Badges d'activités */
+    /* --- Rectangle de détails masqué par défaut --- */
+    .card-details {
+      display: none;
+      margin-top: 12px;
+      padding: 12px;
+      background-color: #f4fbf3;
+      border-left: 4px solid #4a7c39;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    /* Affichage du rectangle quand la carte est active */
+    .card.active .card-details {
+      display: block;
+    }
+
+    .details-row {
+      margin-bottom: 8px;
+    }
+    
+    .details-row:last-child {
+      margin-bottom: 0;
+    }
+
     .tags-container {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
+      margin-top: 10px;
     }
 
     .tag {
@@ -142,13 +168,13 @@
       font-size: 11px;
     }
 
-    /* --- Zone de la Carte (prend tout le reste) --- */
+    /* --- Zone de la Carte --- */
     #carte {
       flex: 1;
       height: 100%;
     }
 
-    /* Responsive : Sur mobile, on empile verticalement */
+    /* Version mobile */
     @media (max-width: 768px) {
       .main-layout {
         flex-direction: column;
@@ -183,8 +209,7 @@
         <span id="compteur">0 parcs affichés</span>
       </div>
 
-      <div class="cards-list" id="liste-parcs">
-        </div>
+      <div class="cards-list" id="liste-parcs"></div>
     </div>
 
     <div id="carte"></div>
@@ -194,7 +219,7 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   
   <script>
-    // Initialisation de la carte Leaflet
+    // Initialisation de la carte sur les Hauts-de-France
     const carte = L.map('carte').setView([50.6292, 3.1452], 12);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -204,50 +229,71 @@
     let parcsCharges = [];
     let markers = [];
 
-    // Fonction pour centrer la carte sur un parc au clic dans la liste
-    function zoomSurParc(lat, lng) {
+    // Gère la sélection et l'affichage des détails au clic
+    function selectionnerParc(elementCard, lat, lng) {
+      // Recentrer la carte Leaflet
       carte.setView([lat, lng], 15);
+
+      // Fermer toutes les autres cartes ouvertes
+      document.querySelectorAll('.card').forEach(c => {
+        if (c !== elementCard) c.classList.remove('active');
+      });
+
+      // Ouvrir ou fermer la carte actuelle
+      elementCard.classList.toggle('active');
     }
 
     function afficherDonnees() {
-      // 1. Nettoyage des anciens marqueurs sur la carte
+      // Nettoyage des anciens marqueurs
       for (const m of markers) carte.removeLayer(m);
       markers = [];
 
-      // 2. Nettoyage de l'ancienne liste HTML
+      // Nettoyage de la liste
       const listeConteneur = document.getElementById('liste-parcs');
       listeConteneur.innerHTML = '';
 
-      // 3. Filtrage des données
+      // Filtrage
       const filtre = document.getElementById('filtre-aire-jeux').checked;
       const visibles = filtre ? parcsCharges.filter(p => p.has_playground) : parcsCharges;
 
-      // 4. Génération des marqueurs ET de la liste HTML
+      // Génération dynamique
       for (const p of visibles) {
         let coord = p.gps_coordinates;
         if (coord && coord.latitude && coord.longitude) {
           
-          // Ajout du marqueur sur la carte
+          // Marqueur sur la carte
           const m = L.marker([coord.latitude, coord.longitude])
             .addTo(carte)
-            .bindPopup('<b>' + p.name + '</b><br>' + (p.short_description || ''));
+            .bindPopup('<b>' + p.name + '</b>');
           markers.push(m);
 
-          // Création de la carte HTML pour la liste de gauche
+          // Conteneur HTML pour le parc
           const cardHtml = document.createElement('div');
           cardHtml.className = 'card';
-          // Événement au clic pour recentrer la carte Leaflet
-          cardHtml.onclick = () => zoomSurParc(coord.latitude, coord.longitude);
+          cardHtml.onclick = () => selectionnerParc(cardHtml, coord.latitude, coord.longitude);
 
-          // Contenu dynamique de la carte
+          // Extraction des données du JSON
+          const ville = p.city || "Non renseignée";
+          const descCourte = p.short_description || "Aucune description rapide disponible.";
+          const descLongue = p.description || descCourte; // Si pas de description longue, prend la courte
+          const horaires = p.opening_hours || "Horaires non renseignés";
+
           let tags = '';
           if (p.has_playground) {
             tags = `<div class="tags-container"><span class="tag">Aire de jeux</span></div>`;
           }
 
+          // Remplissage de la structure HTML
           cardHtml.innerHTML = `
             <div class="card-title">${p.name}</div>
-            <div class="card-description">${p.short_description || 'Aucune description disponible.'}</div>
+            <div class="card-short-desc">${descCourte}</div>
+            
+            <div class="card-details">
+              <div class="details-row">📍 <b>Ville :</b> ${ville}</div>
+              <div class="details-row">🕒 <b>Horaires :</b> ${horaires}</div>
+              <div class="details-row">📝 <b>Description complète :</b><br>${descLongue}</div>
+            </div>
+
             ${tags}
           `;
 
@@ -255,20 +301,20 @@
         }
       }
 
-      // Mise à jour du compteur
+      // Mise à jour du compteur global
       document.getElementById('compteur').textContent = visibles.length + ' parc(s) trouvé(s)';
     }
 
-    // Chargement du fichier JSON
+    // Requête de chargement du fichier local parcs.json
     fetch('parcs.json')
       .then(r => r.json())
       .then(parcs => { 
         parcsCharges = parcs; 
         afficherDonnees(); 
       })
-      .catch(err => console.error("Erreur de chargement du JSON :", err));
+      .catch(err => console.error("Erreur au chargement du fichier JSON :", err));
 
-    // Écouteur sur la checkbox de filtrage
+    // Liaison du filtre
     document.getElementById('filtre-aire-jeux').addEventListener('change', afficherDonnees);
   </script>
 
