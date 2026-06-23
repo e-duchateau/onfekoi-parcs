@@ -24,3 +24,18 @@ jobs:
         run: pip install check-jsonschema
       - name: Le JSON respecte le contrat (schema.json)
         run: python -m check_jsonschema --schemafile schema.json parcs.json
+      -  name: Calculer les métriques de qualité
+         run: |
+          total=$(jq 'length' parcs.json)
+          avec_coords=$(jq '[.[] | select(.latitude != null and .longitude != null)] | length' parcs.json)
+          avec_desc=$(jq '[.[] | select(.short_description != null and .short_description != "")] | length' parcs.json)
+          verifies=$(jq '[.[] | select(.verified == true)] | length' parcs.json)
+
+          echo "## Tableau de bord qualité 📊" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Métrique | Valeur |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Total parcs | $total |" >> $GITHUB_STEP_SUMMARY
+          echo "| Avec coordonnées GPS | $avec_coords / $total |" >> $GITHUB_STEP_SUMMARY
+          echo "| Avec description | $avec_desc / $total |" >> $GITHUB_STEP_SUMMARY
+          echo "| Vérifiés manuellement | $verifies / $total |" >> $GITHUB_STEP_SUMMARY
