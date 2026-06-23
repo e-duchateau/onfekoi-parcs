@@ -3,7 +3,7 @@
 
 Le but de cette application et de permettre au parents de choisir un parc adapté à leurs besoins et aux envies de leur enfants.
 
-Cette appli à était développer lors de mon stage en seconde dans l'entreprise norauto mon but découvrir dans les grande lignes le ficelle du métier et d'entre voir les compétences nécessaire à ce dernier.
+Cette appli à était développer lors de mon stage en seconde dans une entreprise de  e-commerce 
 
 étape 1 : pour créer ce site j'ai du récolter une base de données conséquenté j ai pour cela demanddé l'aide de gimini une inteligence artificiel qui ma permit d 'écrire et de récolter toute les infos nécessaires 
 étape 2 : une fois cette étape effectuer j ai vérifier mes infos en utilisant soit les sites des mairis concernés soit en tuilisant directement le site du parcs grâce à c'est vérifications j'ai pu m'apperçevoir que l'ia avait commits des décalage que se soit sur les coordonnés GPS ou les noms de parcs ou de villes 
